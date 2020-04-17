@@ -1,0 +1,14 @@
+.section__big-link {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 64px;
+  letter-spacing: 0.015em;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: var(--color-primary-text);
+}
+
+.section__orange .section__big-link {
+  color: var(--color-opposite-text);
+}

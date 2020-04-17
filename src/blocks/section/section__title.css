@@ -1,0 +1,13 @@
+.section__title {
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 64px;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  font-family: 'Work Sans', sans-serif;
+  margin: 0px;
+  color: var(--color-primary-text);
+}
+.section__orange .section__title {
+  color: var(--color-opposite-text);
+}

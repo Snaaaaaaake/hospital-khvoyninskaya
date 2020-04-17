@@ -1,0 +1,11 @@
+.footer__title {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 93px;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  border-bottom: 2px solid var(--color-opposite-text);
+  color: var(--color-opposite-text);
+  margin: 0px;
+}

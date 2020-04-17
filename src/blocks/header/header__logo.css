@@ -1,0 +1,11 @@
+.header__logo {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 132px;
+  display: flex;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: #F2F2F2;
+  margin-left: 9vw;
+}

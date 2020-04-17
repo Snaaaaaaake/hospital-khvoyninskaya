@@ -1,0 +1,5 @@
+.contrast-mode__item {
+  display: flex;
+  align-items: center;
+  padding: 0 60px;
+}

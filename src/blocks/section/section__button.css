@@ -1,0 +1,17 @@
+.section__button {
+  width: 580px;
+  font-family: 'Work Sans', sans-serif;
+  line-height: 88px;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border: none;
+  background-color: var(--color-opposite-bg);
+  color: var(--color-opposite-text);
+}
+
+.section__orange .section__button {
+  background-color: var(--color-primary-bg);
+  color: var(--color-primary-text) !important;
+}

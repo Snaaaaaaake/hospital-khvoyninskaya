@@ -1,0 +1,5 @@
+.header__container_right {
+  background: var(--color-opposite-bg);
+  display: flex;
+  justify-content: flex-end;
+}

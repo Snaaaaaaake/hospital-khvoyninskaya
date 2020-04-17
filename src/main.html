@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Хвойнинская ЦРБ</title>
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+  </head>
+<body class="body">
+  <div class="content">
+    <header class="header">
+        <div class="header__container header__container_left">
+          <div class="header__logo">Хвойнинская ЦРБ</div>
+          <nav class="header__main-menu header__button">
+            <img src="<%=require('./images/header__main-menu_icon.svg')%>" alt="" class="header__main-menu_icon">
+          </nav>
+        </div>
+        <div class="header__container header__container_right">
+          <div class="header__contrast-mode" title="Показать/скрыть панель">
+            <div class="header__contrast-mode_help">
+              Версия<br>
+              для<br>
+              слабовидящих
+            </div>
+            <div class="header__button">
+              <img src="<%=require('./images/header__contrast-mode_icon.svg')%>" alt="" class="header__contrast-mode_icon">
+            </div>
+          </div>
+          <div class="header__search header__button">
+            <img src="<%=require('./images/header__search_icon.svg')%>" alt="" class="header__search_icon">
+          </div>
+        </div>
+    </header>
+    <div class="contrast-mode element_disabled">
+      <div class="contrast-mode__item">
+        <div class="contrast-mode__item_text">Размер<br>шрифта</div>
+        <div class="contrast-mode__item_content">
+          <div class="contrast-mode__item_content_font contrast-mode__item_content_font_small">A</div>
+          <div class="contrast-mode__item_content_font contrast-mode__item_content_font_medium">A</div>
+          <div class="contrast-mode__item_content_font contrast-mode__item_content_font_large">A</div>
+        </div>
+      </div>
+      <div class="contrast-mode__item">
+        <div class="contrast-mode__item_text">Цвет<br>сайта</div>
+        <div class="contrast-mode__item_content">
+          <div class="contrast-mode__item_cube contrast-mode__item_cube_button-white" title="Стандартный стиль"></div>
+          <div class="contrast-mode__item_cube contrast-mode__item_cube_button-black contrast-mode__item_cube_dark" title="Контрастный стиль"></div>
+        </div>
+      </div>
+      <div class="contrast-mode__item">
+        <div class="contrast-mode__item_text">Изображения</div>
+        <div class="contrast-mode__item_content">
+          <div class="contrast-mode__item_switch contrast-mode__item_cube_dark"></div>
+          <div class="contrast-mode__item_switch">ВЫКЛ</div>
+        </div>
+      </div>
+      <div class="contrast-mode__item">
+        <div class="contrast-mode__item_content">
+          <button class="contrast-mode__item_content_big-button">Обычная<br>версия сайта</button>
+        </div>
+      </div>
+    </div>
+    <main class="main">
+        <section class="section section_center section__sign-up">
+          <button class="section__button" type="button">Записаться на прием</button>
+        </section>
+        <section class="section section__orange section__examination">
+          <div class="section__text-container">
+            <h2 class="section__title">Диспансеризация — это бесплатный медосмотр</h2>
+            <div class="section__subtitle">
+              <p class="section__subtitle_p">Диспансеризация проводится:</p>
+              <p class="section__subtitle_p">1 раз в три года в возрасте от 18 до 39 лет включительно;</p>
+              <p class="section__subtitle_p">ежегодно в возрасте 40 лет и старше</p>
+            </div>
+            <button class="section__button" type="button">Узнать больше</button>
+          </div>
+          <div class="section__examination_photo-container"></div>
+        </section>
+        <section class="section section__orange">
+          <div class="section__text-container">
+            <h2 class="section__title">Противодействие коррупции</h2>
+            <a href="#" class="section__big-link">Памятка</a>
+            <div class="section__spoiler">
+              <img src="<%=require('./images/section__spoiler_arrow_icon.png')%>" alt="" class="section__spoiler_arrow">
+              <h3 class="section__spoiler_link">Что нужно знать о коррупции</h3>
+            </div>
+          </div>
+        </section>
+        <section class="section">
+          <div class="section__text-container">
+            <h2 class="section__title">Полезные ссылки</h2>
+            <ul class="section__list list_unmarked">
+              <li class="section__list_item">
+                <a href="#" class="section__list_item_link">Министерство здравоохранения Российской Федерации</a>
+              </li>
+              <li class="section__list_item">
+                <a href="#" class="section__list_item_link">Департамент здравоохранения Новгородской области</a>
+              </li>
+              <li class="section__list_item">
+                <a href="#" class="section__list_item_link">Администрация Хвойнинского муниципального района</a>
+              </li>
+              <li class="section__list_item">
+                <a href="#" class="section__list_item_link">Федеральная служба по надзору в сфере защиты прав потребителей и благополучия человека</a>
+              </li>
+              <li class="section__list_item">
+                <a href="#" class="section__list_item_link">Территориальный фонд обязательного медицинского страхования Новгородской области (ТФОМС НО)</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+    </main>
+  </div>
+  <footer class="footer">
+    <h5 class="footer__title">Хвойнинская ЦРБ</h5>
+    <div class="footer__container">
+      <div class="footer__container_item">
+        <h6 class="footer__container_item_title">КОНТАКТЫ</h6>
+      </div>
+      <div class="footer__container_item">
+        <h6 class="footer__container_item_title">ПАЦИЕНТАМ</h6>
+        <ul class="footer__container_list list_unmarked">
+          <li class="footer__container_list_item">
+            <a href="#" class="footer__container_list_item_link">Расписание</a>
+          </li>
+          <li class="footer__container_list_item">
+            <a href="#" class="footer__container_list_item_link">Основные виды деятельности</a>
+          </li>
+          <li class="footer__container_list_item">
+            <a href="#" class="footer__container_list_item_link">Профилактика</a>
+          </li>
+          <li class="footer__container_list_item">
+            <a href="#" class="footer__container_list_item_link">ГОСУСЛУГИ запись на прием</a>
+          </li>
+          <li class="footer__container_list_item">
+            <a href="#" class="footer__container_list_item_link">Написать нам</a>
+          </li>
+          <li class="footer__container_list_item">
+            <a href="#" class="footer__container_list_item_link">Прочая информация</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__container_item">
+        <h6 class="footer__container_item_title">ПЛАТНЫЕ УСЛУГИ</h6>
+      </div>
+      <div class="footer__container_item">
+        <h6 class="footer__container_item_title">О НАС</h6>
+      </div>
+      <div class="footer__container_item">
+        <h6 class="footer__container_item_title">ПРОТИВОДЕЙСТВИЕ КОРРУПЦИИ</h6>
+        <ul class="footer__container_list list_unmarked">
+          <li class="footer__container_list_item">
+            <a href="#" class="footer__container_list_item_link">Комиссия по противодействию коррупции</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+</body>
+</html>

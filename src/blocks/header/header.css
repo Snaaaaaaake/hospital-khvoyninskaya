@@ -1,0 +1,14 @@
+@import url(./header__logo.css);
+@import url(./header__container_right.css);
+@import url(./header__main-menu.css);
+@import url(./header__button.css);
+@import url(./header__search.css);
+@import url(./header__contrast-mode.css);
+@import url(./header__contrast-mode_help.css);
+
+.header {
+  background: var(--color-gray-bg);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 132px;
+}
