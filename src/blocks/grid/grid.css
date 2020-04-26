@@ -1,0 +1,19 @@
+@import url(./grid__title.css);
+@import url(./grid__content.css);
+@import url(./grid__cell.css);
+@import url(./grid__cell_color.css);
+@import url(./grid__help.css);
+@import url(./grid__help_columns.css);
+@import url(./grid__help_cell.css);
+@import url(./grid__help_text.css);
+@import url(./grid__help_cube.css);
+@import url(./grid__container.css);
+@import url(./grid__cell_span.css);
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-auto-rows: minmax(33px, auto);
+  border-bottom: 1px solid var(--color-primary-text);
+  border-right: 1px solid var(--color-primary-text);
+}

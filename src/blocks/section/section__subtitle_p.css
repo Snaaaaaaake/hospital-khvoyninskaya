@@ -8,6 +8,6 @@
   color: var(--color-primary-text);
 }
 
-.section__orange .section__subtitle_p {
+.element_orange .section__subtitle_p {
   color: var(--color-opposite-text);
 }

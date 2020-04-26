@@ -1,3 +1,10 @@
 .header__search {
   background: #E0E0E0;
+  position: static;
+  display: flex;
+}
+
+.header__search:hover {
+  position: absolute;
+  width: 100%;
 }

@@ -1,0 +1,7 @@
+.grid__content {
+  display: grid;
+  grid-template-columns: repeat(14, 32px);
+  grid-auto-rows: minmax(33px, auto);
+  align-items: center;
+  box-sizing: border-box;
+}

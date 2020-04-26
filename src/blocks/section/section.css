@@ -1,22 +1,22 @@
-@import url(./section__sign-up.css);
 @import url(./section_center.css);
 @import url(./section__button.css);
-@import url(./section__orange.css);
 @import url(./section__title.css);
 @import url(./section__subtitle.css);
+@import url(./section__subtitle_big-margin.css);
 @import url(./section__subtitle_p.css);
-@import url(./section__examination.css);
+@import url(./section__subtitle_p_big.css);
 @import url(./section__text-container.css);
-@import url(./section__examination_photo-container.css);
 @import url(./section__big-link.css);
 @import url(./section__spoiler.css);
 @import url(./section__spoiler_link.css);
 @import url(./section__spoiler_arrow.css);
 @import url(./section__list_item.css);
 @import url(./section__list_item_link.css);
+@import url(./section__mini-title.css);
+@import url(./section__mini-subtitle.css);
 
 .section {
-  height: 1080px;
+  min-height: 1080px;
   background-color: var(--color-global-bg);
   display: grid;
   grid-template-rows: 1fr;

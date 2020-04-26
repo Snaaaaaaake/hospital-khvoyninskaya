@@ -9,6 +9,8 @@ const isDev = process.env.NODE_ENV === 'development';
 module.exports = {
   entry: { 
 	main: './src/js/main.js', 
+	prophylaxy: './src/js/prophylaxy.js', 
+	about: './src/js/about.js',
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -66,6 +68,16 @@ module.exports = {
       inject: false,
       template: './src/main.html',
       filename: 'index.html'
+    }),
+	new HtmlWebpackPlugin({
+      inject: false,
+      template: './src/prophylaxy.html',
+      filename: './prophylaxy/index.html'
+    }),
+	new HtmlWebpackPlugin({
+      inject: false,
+      template: './src/about.html',
+      filename: './about/index.html'
     }),
     new WebpackMd5Hash(),
 	new webpack.DefinePlugin({

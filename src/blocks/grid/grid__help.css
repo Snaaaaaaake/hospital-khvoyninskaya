@@ -1,0 +1,6 @@
+.grid__help {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:14px;
+  margin-top:38px;
+}

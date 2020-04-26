@@ -9,6 +9,6 @@
   color: var(--color-primary-text);
 }
 
-.section__orange .section__spoiler_link {
+.element_orange .section__spoiler_link {
   color: var(--color-opposite-text);
 }

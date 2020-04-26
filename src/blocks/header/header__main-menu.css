@@ -1,6 +1,11 @@
 .header__main-menu {
   position: absolute;
-  top: 0px;
+  top: 132px;
   left: 0px;
-  background: #474849;
+  height: 1080px;
+  width: 100%;
+  transition: all 0.5s ease-out 0s;
+  transform: translateX(0px);
+  visibility: visible;
+  opacity: 1;
 }

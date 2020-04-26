@@ -1,0 +1,5 @@
+.header__main-menu_hidden {
+  transform: translateX(-200px);
+  visibility: hidden;
+  opacity: 0;
+}

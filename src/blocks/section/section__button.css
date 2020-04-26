@@ -9,9 +9,10 @@
   border: none;
   background-color: var(--color-opposite-bg);
   color: var(--color-opposite-text);
+  cursor: pointer;
 }
 
-.section__orange .section__button {
+.element_orange .section__button {
   background-color: var(--color-primary-bg);
   color: var(--color-primary-text) !important;
 }

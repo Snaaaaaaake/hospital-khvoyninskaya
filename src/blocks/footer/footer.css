@@ -1,10 +1,6 @@
 @import url(./footer__title.css);
 @import url(./footer__container.css);
-@import url(./footer__container_item_title.css);
-@import url(./footer__container_list_item.css);
-@import url(./footer__container_list_item_link.css);
 
 .footer {
-  background-color: var(--color-gray-bg);
   padding: 62px 213px 90px 213px;
 }

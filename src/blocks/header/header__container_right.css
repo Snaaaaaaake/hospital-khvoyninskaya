@@ -2,4 +2,5 @@
   background: var(--color-opposite-bg);
   display: flex;
   justify-content: flex-end;
+  position: relative;
 }

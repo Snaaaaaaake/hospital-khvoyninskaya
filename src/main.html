@@ -8,12 +8,61 @@
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
   </head>
 <body class="body">
+  <div class="overlay element_disabled"></div>
   <div class="content">
     <header class="header">
         <div class="header__container header__container_left">
           <div class="header__logo">Хвойнинская ЦРБ</div>
-          <nav class="header__main-menu header__button">
+          <div class="header__main-menu_button header__button">
             <img src="<%=require('./images/header__main-menu_icon.svg')%>" alt="" class="header__main-menu_icon">
+          </div>
+          <nav class="header__main-menu element_orange header__main-menu_hidden element_disabled">
+            <div class="header__main-menu_container">
+              <ul class="header__main-menu_list list_unmarked">
+
+                <li class="header__main-menu_list_item list__item">
+                  <p class="list__title">ПАЦИЕНТАМ</p>
+                  <ul class="header__main-menu_second-list list_unmarked">
+                    <li class="list__item">
+                      <a href="#" class="list__link">Расписание</a>
+                    </li>
+                    <li class="list__item">
+                      <a href="#" class="list__link">Основные виды деятельности</a>
+                    </li>
+                    <li class="list__item">
+                      <a href="/prophylaxy" class="list__link">Профилактика</a>
+                    </li>
+                    <li class="list__item">
+                      <a href="#" class="list__link">Запись на прием</a>
+                    </li>
+                    <li class="list__item">
+                      <a href="#" class="list__link">ГОСУСЛУГИ запись на прием</a>
+                    </li>
+                    <li class="list__item">
+                      <a href="#" class="list__link">Написать нам</a>
+                    </li>
+                    <li class="list__item">
+                      <a href="#" class="list__link">Прочая информация</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="header__main-menu_list_item list__item">
+                  <a href="#" class="list__title">ПЛАТНЫЕ УСЛУГИ</a>
+                </li>
+                <li class="header__main-menu_list_item list__item">
+                  <a href="#" class="list__title">О НАС</a>
+                </li>
+                <li class="header__main-menu_list_item list__item">
+                  <p class="list__title">ПРОТИВОКОРУПЦИОННЫЕ<br>ДЕЙСТВИЯ</p>
+                  <ul class="header__main-menu_second-list list_unmarked">
+                    <li class="list__item">
+                      <a href="#" class="list__link">Комиссия по противодействию коррупции</a>
+                    </li>
+                  </ul>
+                </li>
+
+              </ul>
+            </div>
           </nav>
         </div>
         <div class="header__container header__container_right">
@@ -27,9 +76,14 @@
               <img src="<%=require('./images/header__contrast-mode_icon.svg')%>" alt="" class="header__contrast-mode_icon">
             </div>
           </div>
-          <div class="header__search header__button">
-            <img src="<%=require('./images/header__search_icon.svg')%>" alt="" class="header__search_icon">
-          </div>
+          <form class="header__search">
+            <div class="header__search_container">
+              <input type="text" class="header__search_input">
+            </div>
+            <button class="header__button header__button_search" type="submit">
+              <img src="<%=require('./images/header__search_icon.svg')%>" alt="" class="header__search_icon">
+            </button>
+          </form>
         </div>
     </header>
     <div class="contrast-mode element_disabled">
@@ -62,10 +116,10 @@
       </div>
     </div>
     <main class="main">
-        <section class="section section_center section__sign-up">
+        <section class="section section_center content__sign-up">
           <button class="section__button" type="button">Записаться на прием</button>
         </section>
-        <section class="section section__orange section__examination">
+        <section class="section element_orange content__examination">
           <div class="section__text-container">
             <h2 class="section__title">Диспансеризация — это бесплатный медосмотр</h2>
             <div class="section__subtitle">
@@ -75,9 +129,9 @@
             </div>
             <button class="section__button" type="button">Узнать больше</button>
           </div>
-          <div class="section__examination_photo-container"></div>
+          <div class="content__examination_photo-container"></div>
         </section>
-        <section class="section section__orange">
+        <section class="section element_orange">
           <div class="section__text-container">
             <h2 class="section__title">Противодействие коррупции</h2>
             <a href="#" class="section__big-link">Памятка</a>
@@ -111,46 +165,46 @@
         </section>
     </main>
   </div>
-  <footer class="footer">
+  <footer class="footer element_gray">
     <h5 class="footer__title">Хвойнинская ЦРБ</h5>
     <div class="footer__container">
-      <div class="footer__container_item">
-        <h6 class="footer__container_item_title">КОНТАКТЫ</h6>
+      <div >
+        <h6 class="list__title list__item">КОНТАКТЫ</h6>
       </div>
-      <div class="footer__container_item">
-        <h6 class="footer__container_item_title">ПАЦИЕНТАМ</h6>
+      <div >
+        <h6 class="list__title list__item">ПАЦИЕНТАМ</h6>
         <ul class="footer__container_list list_unmarked">
-          <li class="footer__container_list_item">
-            <a href="#" class="footer__container_list_item_link">Расписание</a>
+          <li class="list__item">
+            <a href="#" class="list__link">Расписание</a>
           </li>
-          <li class="footer__container_list_item">
-            <a href="#" class="footer__container_list_item_link">Основные виды деятельности</a>
+          <li class="list__item">
+            <a href="#" class="list__link">Основные виды деятельности</a>
           </li>
-          <li class="footer__container_list_item">
-            <a href="#" class="footer__container_list_item_link">Профилактика</a>
+          <li class="list__item">
+            <a href="/prophylaxy" class="list__link">Профилактика</a>
           </li>
-          <li class="footer__container_list_item">
-            <a href="#" class="footer__container_list_item_link">ГОСУСЛУГИ запись на прием</a>
+          <li class="list__item">
+            <a href="#" class="list__link">ГОСУСЛУГИ запись на прием</a>
           </li>
-          <li class="footer__container_list_item">
-            <a href="#" class="footer__container_list_item_link">Написать нам</a>
+          <li class="list__item">
+            <a href="#" class="list__link">Написать нам</a>
           </li>
-          <li class="footer__container_list_item">
-            <a href="#" class="footer__container_list_item_link">Прочая информация</a>
+          <li class="list__item">
+            <a href="#" class="list__link">Прочая информация</a>
           </li>
         </ul>
       </div>
-      <div class="footer__container_item">
-        <h6 class="footer__container_item_title">ПЛАТНЫЕ УСЛУГИ</h6>
+      <div >
+        <h6 class="list__title list__item">ПЛАТНЫЕ УСЛУГИ</h6>
       </div>
-      <div class="footer__container_item">
-        <h6 class="footer__container_item_title">О НАС</h6>
+      <div >
+        <h6 class="list__title list__item">О НАС</h6>
       </div>
-      <div class="footer__container_item">
-        <h6 class="footer__container_item_title">ПРОТИВОДЕЙСТВИЕ КОРРУПЦИИ</h6>
-        <ul class="footer__container_list list_unmarked">
-          <li class="footer__container_list_item">
-            <a href="#" class="footer__container_list_item_link">Комиссия по противодействию коррупции</a>
+      <div >
+        <h6 class="list__title list__item">ПРОТИВОДЕЙСТВИЕ КОРРУПЦИИ</h6>
+        <ul class="list_unmarked">
+          <li class="list__item">
+            <a href="#" class="list__link">Комиссия по противодействию коррупции</a>
           </li>
         </ul>
       </div>

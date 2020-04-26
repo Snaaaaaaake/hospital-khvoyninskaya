@@ -1,0 +1,6 @@
+.grid__help_cube {
+  width:32px;
+  height: 32px;
+  flex-shrink: 0;
+  margin-right: 14px;
+}

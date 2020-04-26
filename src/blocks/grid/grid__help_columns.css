@@ -1,0 +1,7 @@
+.grid__help_columns2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid__help_columns3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}

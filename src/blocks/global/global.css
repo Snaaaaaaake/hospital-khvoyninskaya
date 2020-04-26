@@ -1,22 +1,24 @@
 :root {
   --color-orange: #F36956;
   --color-white: #F2F2F2;
-  --color-gray: #535353;
-  --color-black: #333333;
   --color-second-white: #E5E5E5;
+  --color-gray: #535353;
+  --color-second-gray: #474849;
+  --color-black: #333333;
 
   --color-primary-text: var(--color-orange);
   --color-primary-bg: var(--color-white);
-  --color-gray-bg: var(--color-gray);
   --color-opposite-text: var(--color-white);
   --color-opposite-bg: var(--color-orange);
-  --color-global-bg: var(--color-second-white);
+  --color-gray-bg: var(--color-gray);
+  --color-black-bg: var(--color-second-gray);
+  --color-global-bg: var(--color-white);
 }
 
 :root.contrast {
   --color-primary-text: var(--color-black);
   --color-primary-bg: var(--color-white);
-  --color-gray-bg: var(--color-black);
   --color-opposite-text: var(--color-white);
   --color-opposite-bg: var(--color-black);
+  --color-gray-bg: var(--color-black);
 }

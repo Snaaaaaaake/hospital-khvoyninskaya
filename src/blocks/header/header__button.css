@@ -3,5 +3,6 @@
   width: 132px;
   line-height: 132px;
   text-align: center;
-  box-sizing: border-box;
+  border: none;
+  padding: 0;
 }

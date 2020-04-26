@@ -1,0 +1,6 @@
+@import url(./content__examination_photo-container.css);
+
+.content__examination {
+  display: grid;
+  grid-template-rows: 1fr 356px;
+}

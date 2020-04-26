@@ -1,0 +1,14 @@
+.header__main-menu_second-list {
+  visibility: hidden;
+  position: absolute;
+  top: 0px;
+  left: 350px;
+  height: 100%;
+  transition: all 0.3s ease-out;
+  opacity: 0.5;
+}
+
+.header__main-menu_list_item:hover .header__main-menu_second-list {
+  visibility: visible;
+  opacity: 1;
+}

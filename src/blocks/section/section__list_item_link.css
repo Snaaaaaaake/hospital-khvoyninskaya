@@ -8,6 +8,6 @@
   color: var(--color-primary-text);
 }
 
-.section__orange .section__button {
+.element_orange .section__button {
   color: var(--color-opposite-text);
 }

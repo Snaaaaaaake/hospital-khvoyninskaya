@@ -1,0 +1,15 @@
+.list__link {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+  line-height: 44px;
+  text-decoration: none;
+  color: var(--color-primary-text);
+}
+
+.element_orange .list__link {
+  color: var(--color-opposite-text);
+}
+
+.element_gray .list__link {
+  color: var(--color-opposite-text);
+}

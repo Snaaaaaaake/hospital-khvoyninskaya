@@ -1,0 +1,31 @@
+.grid__cell_orange {
+  color: #F2F2F2;
+  background-color: #F36956;
+}
+
+.grid__cell_second-orange {
+  color: #F2F2F2;
+  background-color: #F27E77;
+}
+
+.grid__cell_white {
+  background-color: #E0E0E0;
+}
+
+.grid__cell_gray {
+  background-color: #BDBDBD;
+}
+
+.grid__cell_second-gray {
+  background-color: #828282;
+}
+
+.grid__cell_third-gray {
+  background-color: #4F4F4F;
+  color: #F2F2F2;
+}
+
+.grid__cell_black {
+  background-color: #333333;
+  color: #F2F2F2;
+}

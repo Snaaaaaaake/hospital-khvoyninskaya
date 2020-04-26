@@ -1,0 +1,14 @@
+.section__mini-subtitle {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 0.015em;
+  color: var(--color-primary-text);
+  margin-top: 10px;
+  margin-bottom: 24px;
+}
+
+.element_orange .section__mini-subtitle {
+  color: var(--color-opposite-text);
+}

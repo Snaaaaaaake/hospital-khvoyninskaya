@@ -8,6 +8,6 @@
   margin: 0px;
   color: var(--color-primary-text);
 }
-.section__orange .section__title {
+.element_orange .section__title {
   color: var(--color-opposite-text);
 }
