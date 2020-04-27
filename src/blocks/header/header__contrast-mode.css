@@ -6,3 +6,9 @@
   border-bottom: 1px solid #E0E0E0;
   cursor: pointer;
 }
+
+@media (max-width:1279px) {
+  .header__contrast-mode {
+    border: none;
+  }
+}

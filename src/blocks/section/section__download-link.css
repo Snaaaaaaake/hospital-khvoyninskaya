@@ -1,0 +1,16 @@
+.section__download-link {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 0.015em;
+  color: var(--color-primary-text);
+
+  text-decoration: none;
+  min-height: 40px;
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  padding-left: 70px;
+  background: url('../../images/arrow_orange.png') left center no-repeat;
+}

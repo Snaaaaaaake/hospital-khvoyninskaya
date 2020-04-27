@@ -16,3 +16,9 @@
   background-color: var(--color-primary-bg);
   color: var(--color-primary-text) !important;
 }
+
+@media (max-width:1279px) {
+  .section__button{
+    width:290px;
+  }
+}

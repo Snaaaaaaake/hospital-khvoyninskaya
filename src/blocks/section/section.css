@@ -6,6 +6,7 @@
 @import url(./section__subtitle_p.css);
 @import url(./section__subtitle_p_big.css);
 @import url(./section__text-container.css);
+@import url(./section__text-container_no-padding.css);
 @import url(./section__big-link.css);
 @import url(./section__spoiler.css);
 @import url(./section__spoiler_link.css);
@@ -14,6 +15,8 @@
 @import url(./section__list_item_link.css);
 @import url(./section__mini-title.css);
 @import url(./section__mini-subtitle.css);
+@import url(./section__h4-title.css);
+@import url(./section__download-link.css);
 
 .section {
   min-height: 1080px;

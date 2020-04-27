@@ -1,9 +1,11 @@
 .list__title {
   margin: 0;
+  display: block;
   font-family: 'Work Sans', sans-serif;
   font-weight: 600;
   font-size: 20px;
-  line-height: 52px;
+  line-height: 28px;
+  padding: 12px 0;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   text-decoration: none;

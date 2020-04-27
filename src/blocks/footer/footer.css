@@ -1,5 +1,6 @@
 @import url(./footer__title.css);
 @import url(./footer__container.css);
+@import url(./footer__container_list.css);
 
 .footer {
   padding: 62px 213px 90px 213px;

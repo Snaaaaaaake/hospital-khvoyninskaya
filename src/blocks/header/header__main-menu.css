@@ -9,3 +9,9 @@
   visibility: visible;
   opacity: 1;
 }
+
+@media (max-width:1279px) {
+  .header__main-menu {
+    width: 100vw;
+  }
+}
