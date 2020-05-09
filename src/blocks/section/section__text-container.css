@@ -4,3 +4,29 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+@media (max-width:1599px) {
+  .section__text-container {
+    padding: 59px 59px 52px 80px;
+  }
+}
+
+@media (max-width:1499px) {
+  .section__text-container {
+    padding: 59px 59px 52px 58px;
+  }
+
+  .section_span .section__text-container {
+    padding: 83px 59px 0 58px;
+  }
+}
+
+@media (max-width:1023px) {
+  .section__text-container {
+    padding: 45px 0;
+  }
+
+  .section_span .section__text-container {
+    padding: 45px 0 0;
+  }
+}

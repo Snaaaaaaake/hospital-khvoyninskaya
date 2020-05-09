@@ -16,3 +16,20 @@
   border-left: 1px solid var(--color-primary-text);
   box-sizing: border-box;
 }
+
+@media (max-width:1499px) {
+  .grid__cell {
+    border: none;
+    border-left: 1px solid var(--color-primary-text);
+    border-bottom: 1px solid var(--color-primary-text);
+    font-size: 18px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width:1023px) {
+  .grid__cell {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}

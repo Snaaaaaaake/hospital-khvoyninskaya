@@ -1,0 +1,16 @@
+.header__search-container {
+  display:none;
+  width: 100%;
+  height: 132px;
+}
+
+.header__search:hover .header__search-container {
+  display:flex;
+  align-items: center;
+}
+
+@media (max-width:1023px) {
+  .header__search-container {
+    height: 67px;
+  }
+}

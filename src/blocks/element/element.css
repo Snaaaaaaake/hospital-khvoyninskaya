@@ -2,4 +2,6 @@
 @import url(./element_gray.css);
 @import url(./element_uppercase.css);
 @import url(./element_disabled.css);
+@import url(./element__grid_enabled.css);
+@import url(./element_enabled.css);
 @import url(./element_on-top.css);

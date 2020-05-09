@@ -9,171 +9,167 @@
   </head>
 <body class="body">
   <div class="overlay element_disabled"></div>
-  <div>
-    <header class="header">
-        <div class="header__container header__container_left">
-          <div class="header__logo">Хвойнинская ЦРБ</div>
-          <div class="header__main-menu_button header__button">
-            <img src="<%=require('./images/header__main-menu_icon.svg')%>" alt="" class="header__main-menu_icon">
-          </div>
-          <nav class="header__main-menu element_orange header__main-menu_hidden element_disabled">
-            <div class="header__main-menu_container">
-              <ul class="header__main-menu_list list_unmarked">
-
-                <li class="header__main-menu_list_item list__item">
-                  <p class="list__title">ПАЦИЕНТАМ</p>
-                  <ul class="header__main-menu_second-list list_unmarked">
-                    <li class="list__item">
-                      <a href="#" class="list__link">Расписание</a>
-                    </li>
-                    <li class="list__item">
-                      <a href="#" class="list__link">Основные виды деятельности</a>
-                    </li>
-                    <li class="list__item">
-                      <a href="/prophylaxy" class="list__link">Профилактика</a>
-                    </li>
-                    <li class="list__item">
-                      <a href="#" class="list__link">Запись на прием</a>
-                    </li>
-                    <li class="list__item">
-                      <a href="#" class="list__link">ГОСУСЛУГИ запись на прием</a>
-                    </li>
-                    <li class="list__item">
-                      <a href="#" class="list__link">Написать нам</a>
-                    </li>
-                    <li class="list__item">
-                      <a href="#" class="list__link">Прочая информация</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="header__main-menu_list_item list__item">
-                  <a href="#" class="list__title">ПЛАТНЫЕ УСЛУГИ</a>
-                </li>
-                <li class="header__main-menu_list_item list__item">
-                  <a href="#" class="list__title">О НАС</a>
-                </li>
-                <li class="header__main-menu_list_item list__item">
-                  <p class="list__title">ПРОТИВОКОРУПЦИОННЫЕ<br>ДЕЙСТВИЯ</p>
-                  <ul class="header__main-menu_second-list list_unmarked">
-                    <li class="list__item">
-                      <a href="#" class="list__link">Комиссия по противодействию коррупции</a>
-                    </li>
-                  </ul>
-                </li>
-
-              </ul>
-            </div>
-          </nav>
-        </div>
-        <div class="header__container header__container_right">
-          <div class="header__contrast-mode" title="Версия для слабовидящих">
-            <div class="header__contrast-mode_help">
-              Версия<br>
-              для<br>
-              слабовидящих
-            </div>
-            <div class="header__button">
-              <img src="<%=require('./images/header__contrast-mode_icon.svg')%>" alt="" class="header__contrast-mode_icon">
-            </div>
-          </div>
-          <form class="header__search">
-            <div class="header__search_container">
-              <input type="text" class="header__search_input">
-            </div>
-            <button class="header__button header__button_search" type="submit">
-              <img src="<%=require('./images/header__search_icon.svg')%>" alt="" class="header__search_icon">
-            </button>
-          </form>
-        </div>
-    </header>
-    <div class="contrast-mode element_disabled">
-      <div class="contrast-mode__item">
-        <div class="contrast-mode__item_text">Размер<br>шрифта</div>
-        <div class="contrast-mode__item_content">
-          <div class="contrast-mode__item_content_font contrast-mode__item_content_font_small">A</div>
-          <div class="contrast-mode__item_content_font contrast-mode__item_content_font_medium">A</div>
-          <div class="contrast-mode__item_content_font contrast-mode__item_content_font_large">A</div>
-        </div>
-      </div>
-      <div class="contrast-mode__item">
-        <div class="contrast-mode__item_text">Цвет<br>сайта</div>
-        <div class="contrast-mode__item_content">
-          <div class="contrast-mode__item_cube contrast-mode__item_cube_button-white" title="Стандартный стиль"></div>
-          <div class="contrast-mode__item_cube contrast-mode__item_cube_button-black contrast-mode__item_cube_dark" title="Контрастный стиль"></div>
-        </div>
-      </div>
-      <div class="contrast-mode__item">
-        <div class="contrast-mode__item_text">Изображения</div>
-        <div class="contrast-mode__item_content">
-          <div class="contrast-mode__item_switch contrast-mode__item_cube_dark"></div>
-          <div class="contrast-mode__item_switch">ВЫКЛ</div>
-        </div>
-      </div>
-      <div class="contrast-mode__item">
-        <div class="contrast-mode__item_content">
-          <button class="contrast-mode__item_content_big-button">Обычная<br>версия сайта</button>
-        </div>
-      </div>
-    </div>
-    <main class="main">
-        <section class="section section_center content__sign-up">
-          <button class="section__button" type="button">Записаться на прием</button>
-        </section>
-        <section class="section element_orange content__examination">
-          <div class="section__text-container">
-            <h2 class="section__title">Диспансеризация — это бесплатный медосмотр</h2>
-            <div class="section__subtitle">
-              <p class="section__subtitle_p">Диспансеризация проводится:</p>
-              <p class="section__subtitle_p">1 раз в три года в возрасте от 18 до 39 лет включительно;</p>
-              <p class="section__subtitle_p">ежегодно в возрасте 40 лет и старше</p>
-            </div>
-            <button class="section__button" type="button">Узнать больше</button>
-          </div>
-          <div class="content__examination_photo-container"></div>
-        </section>
-        <section class="section element_orange">
-          <div class="section__text-container">
-            <h2 class="section__title">Противодействие коррупции</h2>
-            <a href="#" class="section__big-link">Памятка</a>
-            <div class="section__spoiler">
-              <img src="<%=require('./images/section__spoiler_arrow_icon.png')%>" alt="" class="section__spoiler_arrow">
-              <h3 class="section__spoiler_link">Что нужно знать о коррупции</h3>
-            </div>
-          </div>
-        </section>
-        <section class="section">
-          <div class="section__text-container">
-            <h2 class="section__title">Полезные ссылки</h2>
-            <ul class="section__list list_unmarked">
-              <li class="section__list_item">
-                <a href="#" class="section__list_item_link">Министерство здравоохранения Российской Федерации</a>
+  <header class="header">
+    <nav class="header__main-menu element_orange header__main-menu_hidden element_disabled">
+      <div class="header__main-menu-container">
+        <ul class="header__main-menu-list list_unmarked">
+          <li class="header__main-menu-list_item list__item">
+            <p class="list__title header__main-menu-list-title">ПАЦИЕНТАМ</p>
+            <ul class="header__main-menu-second-list list_unmarked">
+              <li class="list__item">
+                <a href="#" class="list__link">Расписание</a>
               </li>
-              <li class="section__list_item">
-                <a href="#" class="section__list_item_link">Департамент здравоохранения Новгородской области</a>
+              <li class="list__item">
+                <a href="#" class="list__link">Основные виды деятельности</a>
               </li>
-              <li class="section__list_item">
-                <a href="#" class="section__list_item_link">Администрация Хвойнинского муниципального района</a>
+              <li class="list__item">
+                <a href="/prophylaxy" class="list__link">Профилактика</a>
               </li>
-              <li class="section__list_item">
-                <a href="#" class="section__list_item_link">Федеральная служба по надзору в сфере защиты прав потребителей и благополучия человека</a>
+              <li class="list__item">
+                <a href="#" class="list__link">Запись на прием</a>
               </li>
-              <li class="section__list_item">
-                <a href="#" class="section__list_item_link">Территориальный фонд обязательного медицинского страхования Новгородской области (ТФОМС НО)</a>
+              <li class="list__item">
+                <a href="#" class="list__link">ГОСУСЛУГИ запись на прием</a>
+              </li>
+              <li class="list__item">
+                <a href="#" class="list__link">Написать нам</a>
+              </li>
+              <li class="list__item">
+                <a href="#" class="list__link">Прочая информация</a>
               </li>
             </ul>
+          </li>
+          <li class="header__main-menu-list_item list__item">
+            <a href="#" class="list__title header__main-menu-list-title">ПЛАТНЫЕ УСЛУГИ</a>
+          </li>
+          <li class="header__main-menu-list_item list__item">
+            <a href="/about" class="list__title header__main-menu-list-title">О НАС</a>
+          </li>
+          <li class="header__main-menu-list_item list__item">
+            <p class="list__title header__main-menu-list-title">ПРОТИВО&shy;КОРУПЦИОННЫЕ<br>ДЕЙСТВИЯ</p>
+            <ul class="header__main-menu-second-list list_unmarked">
+              <li class="list__item">
+                <a href="#" class="list__link">Комиссия по противодействию коррупции</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+      <div class="header__container header__left-container">
+        <div class="header__logo">Хвойнинская ЦРБ</div>
+        <div class="header__main-menu-button header__button">
+          <img src="<%=require('./images/header__main-menu-icon.svg')%>" alt="" class="header__main-menu-icon">
+        </div>
+      </div>
+      <div class="header__container header__right-container">
+        <div class="header__contrast-mode" title="Версия для слабовидящих">
+          <div class="header__contrast-mode-help">
+            Версия<br>
+            для<br>
+            слабовидящих
           </div>
-        </section>
-    </main>
+          <div class="header__button">
+            <img src="<%=require('./images/header__contrast-mode-icon.svg')%>" alt="" class="header__contrast-mode-icon">
+          </div>
+        </div>
+        <form class="header__search">
+          <div class="header__search-container">
+            <input type="text" class="header__search-input">
+          </div>
+          <button class="header__button header__button-search" type="submit">
+            <img src="<%=require('./images/header__search-icon.svg')%>" alt="" class="header__search-icon">
+          </button>
+        </form>
+      </div>
+  </header>
+  <div class="contrast-mode element_disabled">
+    <div class="contrast-mode__item">
+      <div class="contrast-mode__item-text">Размер<br>шрифта</div>
+      <div class="contrast-mode__item-content">
+        <div class="contrast-mode__item-content-font contrast-mode__item-content-font_small">A</div>
+        <div class="contrast-mode__item-content-font contrast-mode__item-content-font_medium">A</div>
+        <div class="contrast-mode__item-content-font contrast-mode__item-content-font_large">A</div>
+      </div>
+    </div>
+    <div class="contrast-mode__item">
+      <div class="contrast-mode__item-text">Цвет<br>сайта</div>
+      <div class="contrast-mode__item-content">
+        <div class="contrast-mode__item-cube contrast-mode__item-cube-button-white" title="Стандартный стиль"></div>
+        <div class="contrast-mode__item-cube contrast-mode__item-cube-button-black contrast-mode__item-cube_dark" title="Контрастный стиль"></div>
+      </div>
+    </div>
+    <div class="contrast-mode__item">
+      <div class="contrast-mode__item-text">Изображения</div>
+      <div class="contrast-mode__item-content">
+        <div class="contrast-mode__item-switch contrast-mode__item-cube_dark"></div>
+        <div class="contrast-mode__item-switch">ВЫКЛ</div>
+      </div>
+    </div>
+    <div class="contrast-mode__item">
+      <div class="contrast-mode__item-content">
+        <button class="contrast-mode__item-content-big-button contrast-mode__item-content-big-button-hide">Скрыть<br>меню</button>
+      </div>
+    </div>
   </div>
+  <main class="main content">
+      <section class="section section_center content__sign-up">
+        <button class="section__button" type="button">Записаться на прием</button>
+      </section>
+      <section class="section element_orange content__examination">
+        <div class="section__text-container">
+          <h2 class="section__title">Диспансе&shy;ризация — это бесплатный медосмотр</h2>
+          <div class="section__subtitle">
+            <p class="section__subtitle-paragraph">Диспансеризация проводится:</p>
+            <p class="section__subtitle-paragraph">1 раз в три года в возрасте от 18 до 39 лет включительно;</p>
+            <p class="section__subtitle-paragraph">ежегодно в возрасте 40 лет и старше</p>
+          </div>
+          <button class="section__button" type="button">Узнать больше</button>
+        </div>
+        <div class="content__examination-photo-container"></div>
+      </section>
+      <section class="section section_hight-mobile section_order-1-mobile element_orange">
+        <div class="section__text-container">
+          <h2 class="section__title">Противо&shy;действие коррупции</h2>
+          <a href="#" class="section__big-link">Памятка</a>
+          <div class="section__spoiler">
+            <img src="<%=require('./images/section__spoiler-arrow-icon.png')%>" alt="" class="section__spoiler-arrow">
+            <h3 class="section__spoiler-link">Что нужно знать о коррупции</h3>
+          </div>
+        </div>
+      </section>
+      <section class="section section_hight-mobile">
+        <div class="section__text-container">
+          <h2 class="section__title">Полезные ссылки</h2>
+          <ul class="section__list list_unmarked">
+            <li class="section__list-item">
+              <a href="#" class="section__list-item-link">Министерство здравоохранения Российской Федерации</a>
+            </li>
+            <li class="section__list-item">
+              <a href="#" class="section__list-item-link">Департамент здравоохранения Новгородской области</a>
+            </li>
+            <li class="section__list-item">
+              <a href="#" class="section__list-item-link">Администрация Хвойнинского муниципального района</a>
+            </li>
+            <li class="section__list-item">
+              <a href="#" class="section__list-item-link">Федеральная служба по надзору в сфере защиты прав потребителей и благополучия человека</a>
+            </li>
+            <li class="section__list-item">
+              <a href="#" class="section__list-item-link">Территориальный фонд обязательного медицинского страхования Новгородской области (ТФОМС НО)</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+  </main>
   <footer class="footer element_gray">
     <h5 class="footer__title">Хвойнинская ЦРБ</h5>
     <div class="footer__container">
-      <div >
-        <h6 class="list__title list__item">КОНТАКТЫ</h6>
+      <div class="footer__list-item-container">
+        <h6 class="list__title list__item footer__list-title">КОНТАКТЫ</h6>
       </div>
-      <div >
-        <h6 class="list__title list__item">ПАЦИЕНТАМ</h6>
-        <ul class="footer__container_list list_unmarked">
+      <div class="footer__list-item-container">
+        <h6 class="list__title list__item footer__list-title">ПАЦИЕНТАМ</h6>
+        <ul class="footer__container-list list_unmarked">
           <li class="list__item">
             <a href="#" class="list__link">Расписание</a>
           </li>
@@ -194,15 +190,15 @@
           </li>
         </ul>
       </div>
-      <div >
-        <h6 class="list__title list__item">ПЛАТНЫЕ УСЛУГИ</h6>
+      <div class="footer__list-item-container">
+        <h6 class="list__title list__item footer__list-title">ПЛАТНЫЕ УСЛУГИ</h6>
       </div>
-      <div >
-        <a href="/about" class="list__title list__item">О НАС</a>
+      <div class="footer__list-item-container">
+        <a href="/about" class="list__title list__item footer__list-title">О НАС</a>
       </div>
-      <div >
-        <h6 class="list__title list__item">ПРОТИВОДЕЙСТВИЕ КОРРУПЦИИ</h6>
-        <ul class="footer__container_list list_unmarked">
+      <div class="footer__list-item-container">
+        <h6 class="list__title list__item footer__list-title">ПРОТИВО&shy;ДЕЙСТВИЕ КОРРУПЦИИ</h6>
+        <ul class="footer__container-list list_unmarked">
           <li class="list__item">
             <a href="#" class="list__link">Комиссия по противодействию коррупции</a>
           </li>

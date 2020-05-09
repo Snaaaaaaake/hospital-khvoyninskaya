@@ -1,0 +1,15 @@
+.section__list-item {
+  margin-top: 36px;
+}
+
+@media (max-width:1499px) {
+  .section__list-item {
+    margin-top: 31px;
+  }
+}
+
+@media (max-width:1023px) {
+  .section__list-item {
+    margin-top: 24px;
+  }
+}

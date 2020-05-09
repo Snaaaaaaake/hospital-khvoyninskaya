@@ -1,3 +1,16 @@
 .grid__container{
   margin-top: 62px;
 }
+
+@media (max-width:1499px) {
+  .grid__container{
+    margin-top: 0;
+    margin-bottom: 62px;
+  }
+}
+
+@media (max-width:1023px) {
+  .grid__container {
+    margin-top: 40px;
+  }
+}

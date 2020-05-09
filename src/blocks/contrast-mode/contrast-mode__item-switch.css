@@ -1,0 +1,27 @@
+.contrast-mode__item-switch {
+  display: inline-block;
+  width: 87px;
+  height: 41px;
+  border: 1px solid var(--color-primary-text);
+  background-color: var(--color-primary-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.015em;
+  color: var(--color-primary-text);
+}
+
+@media (max-width:1023px) {
+  .contrast-mode__item-switch {
+    width: 40px;
+    height: 20px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+}

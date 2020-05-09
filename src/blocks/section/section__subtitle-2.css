@@ -1,0 +1,9 @@
+.section__subtitle-2 {
+  margin: 40px 0 60px;
+}
+
+@media (max-width:1499px) {
+  .section__subtitle-2 {
+    margin: 40px 0 0;
+  }
+}

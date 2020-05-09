@@ -1,19 +1,41 @@
+@import url(./grid__help-title.css);
 @import url(./grid__title.css);
+@import url(./grid__title_opened.css);
 @import url(./grid__content.css);
 @import url(./grid__cell.css);
 @import url(./grid__cell_color.css);
 @import url(./grid__help.css);
 @import url(./grid__help_columns.css);
-@import url(./grid__help_cell.css);
-@import url(./grid__help_text.css);
-@import url(./grid__help_cube.css);
+@import url(./grid__help-cell.css);
+@import url(./grid__help-text.css);
+@import url(./grid__help-cube.css);
 @import url(./grid__container.css);
 @import url(./grid__cell_span.css);
+@import url(./grid__header.css);
+@import url(./grid__additional.css);
+@import url(./grid_low-res.css);
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: minmax(auto, 30%) auto;
   grid-auto-rows: minmax(33px, auto);
   border-bottom: 1px solid var(--color-primary-text);
   border-right: 1px solid var(--color-primary-text);
+}
+
+@media (max-width:1499px) {
+  .grid {
+    grid-template-columns: 1fr auto;
+    display: block;
+    border: none;
+    border-top: 1px solid var(--color-primary-text);
+    margin-top: 45px;
+  }
+}
+
+@media (max-width:1023px) {
+  .grid {
+    margin-top: 16px;
+    grid-auto-rows: minmax(24px, auto);
+  }
 }

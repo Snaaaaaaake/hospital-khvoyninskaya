@@ -1,31 +1,41 @@
 @import url(./header__logo.css);
-@import url(./header__container_left.css);
-@import url(./header__container_right.css);
+@import url(./header__left-container.css);
+@import url(./header__right-container.css);
 @import url(./header__main-menu.css);
 @import url(./header__main-menu_hidden.css);
-@import url(./header__main-menu_button.css);
-@import url(./header__main-menu_container.css);
-@import url(./header__main-menu_list.css);
-@import url(./header__main-menu_second-list.css);
+@import url(./header__main-menu-button.css);
+@import url(./header__main-menu-container.css);
+@import url(./header__main-menu-list.css);
+@import url(./header__main-menu-second-list.css);
 @import url(./header__button.css);
-@import url(./header__button_search.css);
+@import url(./header__button-search.css);
 @import url(./header__search.css);
 @import url(./header__contrast-mode.css);
-@import url(./header__contrast-mode_help.css);
-@import url(./header__search_container.css);
-@import url(./header__search_input.css);
+@import url(./header__contrast-mode-help.css);
+@import url(./header__search-container.css);
+@import url(./header__search-input.css);
+@import url(./header__main-menu-icon.css);
+@import url(./header__search-icon.css);
+@import url(./header__contrast-mode-icon.css);
+@import url(./header__main-menu-list-title.css);
+@import url(./header__main-menu-list-title_opened.css);
 
 .header {
   background: var(--color-gray-bg);
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 132px;
+  position: relative;
 }
 
-@media (max-width:1279px) {
+@media (max-width:1499px) {
   .header {
     grid-template-columns: 1fr auto;
+  }
+}
 
-    position: relative;
+@media (max-width:1023px) {
+  .header {
+    height: 67px;
   }
 }

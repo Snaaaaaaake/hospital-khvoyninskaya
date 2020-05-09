@@ -1,0 +1,32 @@
+.grid__additional {
+    border: 1px solid var(--color-primary-text);
+    border-top: none;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.015em;
+    color: var(--color-primary-text);
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-left: 38px;
+}
+
+@media (max-width:1499px) {
+  .grid__additional {
+    font-size: 18px;
+    line-height: 18px;
+    padding-left: 0px;
+    border-left: none;
+    border-right: none;
+  }
+}
+
+@media (max-width:1023px) {
+  .grid__additional {
+    padding-top: 6px;
+    padding-bottom: 8px;
+    font-size: 12px;
+    line-height: 12px;
+  }
+}

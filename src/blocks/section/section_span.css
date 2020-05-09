@@ -1,0 +1,5 @@
+@media (max-width:1499px) {
+  .section_span {
+    grid-column: span 2;
+  }
+}

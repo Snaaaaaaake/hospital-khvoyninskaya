@@ -1,0 +1,13 @@
+.grid__help-cube {
+  width:32px;
+  height: 32px;
+  flex-shrink: 0;
+  margin-right: 14px;
+}
+
+@media (max-width:1023px) {
+  .grid__help-cube {
+    width:16px;
+    height: 16px;
+  }
+}

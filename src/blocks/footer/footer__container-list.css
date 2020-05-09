@@ -1,0 +1,11 @@
+.footer__container-list {
+  margin-top: 50px;
+}
+
+@media (max-width:1499px) {
+  .footer__container-list {
+    margin-top: 0;
+    display: none;
+    margin-bottom: 28px;
+  }
+}

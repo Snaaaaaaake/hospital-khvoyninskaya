@@ -1,0 +1,5 @@
+@media (max-width:1499px) {
+  .grid__title_opened {
+    background: url(../../images/grid__title-opened-arrow-down.png) right center no-repeat;
+  }
+}

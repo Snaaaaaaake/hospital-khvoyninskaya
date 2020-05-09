@@ -2,25 +2,48 @@
 @import url(./section__button.css);
 @import url(./section__title.css);
 @import url(./section__subtitle.css);
+@import url(./section__subtitle-2.css);
 @import url(./section__subtitle_big-margin.css);
-@import url(./section__subtitle_p.css);
-@import url(./section__subtitle_p_big.css);
+@import url(./section__subtitle-paragraph.css);
+@import url(./section__subtitle-paragraph-big.css);
+@import url(./section_span.css);
 @import url(./section__text-container.css);
 @import url(./section__text-container_no-padding.css);
 @import url(./section__big-link.css);
 @import url(./section__spoiler.css);
-@import url(./section__spoiler_link.css);
-@import url(./section__spoiler_arrow.css);
-@import url(./section__list_item.css);
-@import url(./section__list_item_link.css);
+@import url(./section__spoiler-link.css);
+@import url(./section__spoiler-arrow.css);
+@import url(./section__list.css);
+@import url(./section__list-item.css);
+@import url(./section__list-item-link.css);
 @import url(./section__mini-title.css);
 @import url(./section__mini-subtitle.css);
-@import url(./section__h4-title.css);
+@import url(./section__download-link-block.css);
+@import url(./section__download-link-block-title.css);
 @import url(./section__download-link.css);
+@import url(./section_order-1.css);
+@import url(./section_order-1-mobile.css);
+@import url(./section__text-container-aditional.css);
+@import url(./section__text-container-flex.css);
+@import url(./section__text-container-flex-item.css);
+@import url(./section__arrow.css);
+@import url(./section_hight-mobile.css);
 
 .section {
   min-height: 1080px;
   background-color: var(--color-global-bg);
-  display: grid;
-  grid-template-rows: 1fr;
+  display: flex;
+}
+
+@media (max-width:1499px) {
+  .section {
+    min-height: inherit;
+  }
+}
+
+@media (max-width:1023px) {
+  .section {
+    min-height: 370px;
+    padding: 0 20px;
+  }
 }

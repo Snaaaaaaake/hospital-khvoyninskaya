@@ -1,14 +1,14 @@
 @import url(./contrast-mode__item.css);
-@import url(./contrast-mode__item_content.css);
-@import url(./contrast-mode__item_switch.css);
-@import url(./contrast-mode__item_cube.css);
-@import url(./contrast-mode__item_cube_dark.css);
-@import url(./contrast-mode__item_text.css);
-@import url(./contrast-mode__item_content_big-button.css);
-@import url(./contrast-mode__item_content_font.css);
-@import url(./contrast-mode__item_content_font_small.css);
-@import url(./contrast-mode__item_content_font_medium.css);
-@import url(./contrast-mode__item_content_font_large.css);
+@import url(./contrast-mode__item-content.css);
+@import url(./contrast-mode__item-switch.css);
+@import url(./contrast-mode__item-cube.css);
+@import url(./contrast-mode__item-cube_dark.css);
+@import url(./contrast-mode__item-text.css);
+@import url(./contrast-mode__item-content-big-button.css);
+@import url(./contrast-mode__item-content-font.css);
+@import url(./contrast-mode__item-content-font_small.css);
+@import url(./contrast-mode__item-content-font_medium.css);
+@import url(./contrast-mode__item-content-font_large.css);
 
 .contrast-mode {
   background-color: var(--color-primary-bg);
@@ -16,10 +16,5 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-@media (max-width:1279px) {
-  .contrast-mode {
-    flex-wrap: wrap;
-  }
+  flex-wrap: wrap;
 }

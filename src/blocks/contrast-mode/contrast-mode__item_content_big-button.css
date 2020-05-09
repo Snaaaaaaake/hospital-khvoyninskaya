@@ -1,8 +1,0 @@
-.contrast-mode__item_content_big-button {
-  background-color: var(--color-primary-bg);
-  color: var(--color-primary-text);
-  border: 1px solid var(--color-primary-text);
-  width: 332px;
-  height: 132px;
-  box-sizing: border-box;
-}

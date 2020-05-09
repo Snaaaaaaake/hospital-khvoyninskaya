@@ -1,0 +1,5 @@
+@media (max-width:1023px) {
+  .header__main-menu-list-title_opened {
+    background: url(../../images/footer__list-title-arrow-down.png) right center no-repeat;
+  }
+}

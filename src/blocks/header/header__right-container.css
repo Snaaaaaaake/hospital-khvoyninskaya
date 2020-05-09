@@ -1,0 +1,12 @@
+.header__right-container {
+  background: var(--color-opposite-bg);
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+@media (max-width:1499px) {
+  .header__right-container {
+    position: initial;
+  }
+}

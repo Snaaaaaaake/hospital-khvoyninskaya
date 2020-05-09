@@ -12,3 +12,18 @@
 .element_orange .section__mini-subtitle {
   color: var(--color-opposite-text);
 }
+
+@media (max-width:1499px) {
+  .section__mini-subtitle {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+@media (max-width:1023px) {
+  .section__mini-subtitle {
+    font-size: 12px;
+    line-height: 22px;
+    margin-top: 0;
+  }
+}

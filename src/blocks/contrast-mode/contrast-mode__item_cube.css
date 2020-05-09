@@ -1,9 +1,0 @@
-.contrast-mode__item_cube {
-  display: inline-block;
-  margin-left: 14px;
-  width: 41px;
-  height: 41px;
-  border: 1px solid var(--color-primary-text);
-  background-color: var(--color-primary-bg);
-  cursor: pointer;
-}

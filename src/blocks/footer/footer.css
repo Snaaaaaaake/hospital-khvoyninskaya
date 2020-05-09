@@ -1,7 +1,28 @@
 @import url(./footer__title.css);
 @import url(./footer__container.css);
-@import url(./footer__container_list.css);
+@import url(./footer__container-list.css);
+@import url(./footer__list-title.css);
+@import url(./footer__list-title_opened.css);
+@import url(./footer__list-item-container.css);
 
 .footer {
   padding: 62px 213px 90px 213px;
+}
+
+@media (max-width:1599px) {
+  .footer {
+    padding: 62px 100px 90px 100px;
+  }
+}
+
+@media (max-width:1499px) {
+  .footer {
+    padding: 60px 50px 150px 50px;
+  }
+}
+
+@media (max-width:1023px) {
+  .footer {
+    padding: 15px 20px 64px 20px;
+  }
 }

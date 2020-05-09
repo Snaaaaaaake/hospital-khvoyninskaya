@@ -1,0 +1,5 @@
+@media (min-width:1499px) {
+  .grid_low-res{
+    display: none !important;
+  }
+}

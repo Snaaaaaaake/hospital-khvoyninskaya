@@ -1,0 +1,23 @@
+.header__main-menu-second-list {
+  visibility: hidden;
+  position: absolute;
+  top: 0px;
+  left: 350px;
+  height: 100%;
+  transition: all 0.3s ease-out;
+  opacity: 0.5;
+}
+
+.header__main-menu-list_item:hover .header__main-menu-second-list {
+  visibility: visible;
+  opacity: 1;
+}
+
+@media (max-width:1023px) {
+  .header__main-menu-second-list {
+    visibility: visible;
+    opacity: 1;
+    position: static;
+    display: none;
+  }
+}

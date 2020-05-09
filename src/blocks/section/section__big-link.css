@@ -12,3 +12,16 @@
 .element_orange .section__big-link {
   color: var(--color-opposite-text);
 }
+
+@media (max-width:1499px) {
+  .section__big-link {
+    font-size: 30px;
+    line-height: 64px;
+  }
+}
+
+@media (max-width:1023px) {
+  .section__big-link {
+    font-size: 40px;
+  }
+}

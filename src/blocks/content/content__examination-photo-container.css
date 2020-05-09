@@ -1,0 +1,11 @@
+.content__examination-photo-container {
+  height: 356px;
+  background: url('../../images/content__examination-photo.png') top right no-repeat #050D10;
+}
+
+@media (max-width:1499px) {
+  .content__examination-photo-container {
+    height: 202px;
+    background-size: cover;
+  }
+}

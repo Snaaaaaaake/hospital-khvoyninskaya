@@ -1,0 +1,15 @@
+.section__download-link-block {
+  margin-bottom: 103px;
+}
+
+@media (max-width:1499px) {
+  .section__download-link-block {
+    margin-bottom: 88px;
+  }
+}
+
+@media (max-width:1023px) {
+  .section__download-link-block {
+    margin-bottom: 36px;
+  }
+}

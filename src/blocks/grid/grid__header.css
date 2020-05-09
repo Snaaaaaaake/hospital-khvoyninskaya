@@ -1,0 +1,9 @@
+.grid__header {
+  border-bottom: none !important;
+}
+
+@media (max-width:1499px) {
+  .grid__header {
+    display: none !important;
+  }
+}

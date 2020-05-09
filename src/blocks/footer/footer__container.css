@@ -1,5 +1,10 @@
 .footer__container {
   display: flex;
   justify-content: space-between;
-  margin-top: 39px;
+}
+
+@media (max-width:1499px) {
+  .footer__container {
+    display: block;
+  }
 }

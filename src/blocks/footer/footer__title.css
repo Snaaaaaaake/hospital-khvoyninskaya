@@ -8,4 +8,13 @@
   border-bottom: 2px solid var(--color-opposite-text);
   color: var(--color-opposite-text);
   margin: 0px;
+  margin-bottom: 39px;
+}
+
+@media (max-width:1023px) {
+  .footer__title {
+    font-size: 20px;
+    line-height: 79px;
+    margin-bottom: 322px;
+  }
 }

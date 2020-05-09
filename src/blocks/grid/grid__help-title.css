@@ -1,0 +1,29 @@
+.grid__help-title {
+  display: none;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 31px;
+  letter-spacing: 0.015em;
+  color: var(--color-primary-text);
+
+  margin-top: 70px;
+  border-top: 1px solid var(--color-primary-text);
+  border-bottom: 1px solid var(--color-primary-text);
+}
+
+@media (max-width:1499px) {
+  .grid__help-title {
+    display: block;
+    background: url(../../images/grid__title-opened-arrow.png) right center no-repeat;
+    cursor: pointer;
+  }
+}
+
+@media (max-width:1023px) {
+  .grid__help-title {
+    font-size: 12px;
+    line-height: 24px;
+    margin-top: 40px;
+  }
+}

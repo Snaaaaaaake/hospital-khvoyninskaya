@@ -1,0 +1,13 @@
+.contrast-mode__item-content-font_large {
+  font-size: 45px;
+  line-height: 50px;
+  width: 50px;
+}
+
+@media (max-width:1023px) {
+  .contrast-mode__item-content-font_large {
+    font-size: 20px;
+    line-height: 30px;
+    width: 30px;
+  }
+}

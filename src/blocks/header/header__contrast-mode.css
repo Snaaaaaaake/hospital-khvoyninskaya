@@ -7,8 +7,14 @@
   cursor: pointer;
 }
 
-@media (max-width:1279px) {
+@media (max-width:1499px) {
   .header__contrast-mode {
     border: none;
+  }
+}
+
+@media (max-width:424px) {
+  .header__contrast-mode {
+    display: none;
   }
 }

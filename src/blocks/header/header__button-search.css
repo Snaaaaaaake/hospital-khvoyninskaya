@@ -1,0 +1,6 @@
+.header__button-search {
+  background-color: #E0E0E0;
+  flex-shrink: 0;
+  border-left: 1px solid #E0E0E0;
+  border-right: 1px solid #E0E0E0
+}

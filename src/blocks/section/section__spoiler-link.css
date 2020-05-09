@@ -1,0 +1,27 @@
+.section__spoiler-link {
+  margin: 0px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 36px;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  color: var(--color-primary-text);
+}
+
+.element_orange .section__spoiler-link {
+  color: var(--color-opposite-text);
+}
+
+@media (max-width:1499px) {
+  .section__spoiler-link {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
+
+@media (max-width:1023px) {
+  .section__spoiler-link {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,19 @@
+.section__download-link-block-title {
+  margin: 0;
+  margin-bottom: 38px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 36px;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  color: var(--color-primary-text);
+}
+
+@media (max-width:1023px) {
+  .section__download-link-block-title {
+    margin-bottom: 26px;
+    font-size: 20px;
+    line-height: 36px;
+  }
+}
