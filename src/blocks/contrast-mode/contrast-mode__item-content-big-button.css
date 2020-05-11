@@ -2,7 +2,7 @@
   background-color: var(--color-primary-bg);
   color: var(--color-primary-text);
   border: 1px solid var(--color-primary-text);
-  width: 332px;
+  padding: 0 80px;
   height: 132px;
   box-sizing: border-box;
 }
@@ -10,7 +10,6 @@
 @media (max-width:1023px) {
   .contrast-mode__item-content-big-button {
     height: 40px;
-    width: inherit;
     padding: 0 20px;
   }
 }

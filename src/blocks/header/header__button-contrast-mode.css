@@ -1,0 +1,9 @@
+.header__button-contrast-mode {
+  background: url(../../images/header__contrast-mode-icon.svg) center center no-repeat;
+}
+
+@media (max-width:1023px) {
+  .header__button-contrast-mode {
+    background-size: 30px, 23px;
+  }
+}

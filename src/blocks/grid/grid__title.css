@@ -29,6 +29,10 @@
   .grid__header .grid__title {
     display: none;
   }
+
+  .contrast .grid__title {
+    background: url(../../images/grid__title-opened-arrow_black.png) right center no-repeat;
+  }
 }
 
 @media (max-width:1023px) {

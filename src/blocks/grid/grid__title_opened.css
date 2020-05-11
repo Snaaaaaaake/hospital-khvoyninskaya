@@ -2,4 +2,8 @@
   .grid__title_opened {
     background: url(../../images/grid__title-opened-arrow-down.png) right center no-repeat;
   }
+
+  .contrast .grid__title_opened {
+    background: url(../../images/grid__title-opened-arrow-down_black.png) right center no-repeat;
+  }
 }

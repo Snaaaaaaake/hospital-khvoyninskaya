@@ -14,42 +14,42 @@
       <div class="header__main-menu-container">
         <ul class="header__main-menu-list list_unmarked">
           <li class="header__main-menu-list_item list__item">
-            <p class="list__title header__main-menu-list-title">ПАЦИЕНТАМ</p>
+            <p class="list__title header__main-menu-list-title header__main-menu-list-element">ПАЦИЕНТАМ</p>
             <ul class="header__main-menu-second-list list_unmarked">
               <li class="list__item">
-                <a href="#" class="list__link">Расписание</a>
+                <a href="#" class="list__link header__main-menu-list-element">Расписание</a>
               </li>
               <li class="list__item">
-                <a href="#" class="list__link">Основные виды деятельности</a>
+                <a href="#" class="list__link header__main-menu-list-element">Основные виды деятельности</a>
               </li>
               <li class="list__item">
-                <a href="/prophylaxy" class="list__link">Профилактика</a>
+                <a href="/prophylaxy" class="list__link header__main-menu-list-element">Профилактика</a>
               </li>
               <li class="list__item">
-                <a href="#" class="list__link">Запись на прием</a>
+                <a href="#" class="list__link header__main-menu-list-element">Запись на прием</a>
               </li>
               <li class="list__item">
-                <a href="#" class="list__link">ГОСУСЛУГИ запись на прием</a>
+                <a href="#" class="list__link header__main-menu-list-element">ГОСУСЛУГИ запись на прием</a>
               </li>
               <li class="list__item">
-                <a href="#" class="list__link">Написать нам</a>
+                <a href="#" class="list__link header__main-menu-list-element">Написать нам</a>
               </li>
               <li class="list__item">
-                <a href="#" class="list__link">Прочая информация</a>
+                <a href="#" class="list__link header__main-menu-list-element">Прочая информация</a>
               </li>
             </ul>
           </li>
           <li class="header__main-menu-list_item list__item">
-            <a href="#" class="list__title header__main-menu-list-title">ПЛАТНЫЕ УСЛУГИ</a>
+            <a href="#" class="list__title header__main-menu-list-title header__main-menu-list-element">ПЛАТНЫЕ УСЛУГИ</a>
           </li>
           <li class="header__main-menu-list_item list__item">
-            <a href="/about" class="list__title header__main-menu-list-title">О НАС</a>
+            <a href="/about" class="list__title header__main-menu-list-title header__main-menu-list-element">О НАС</a>
           </li>
           <li class="header__main-menu-list_item list__item">
-            <p class="list__title header__main-menu-list-title">ПРОТИВО&shy;КОРУПЦИОННЫЕ<br>ДЕЙСТВИЯ</p>
+            <p class="list__title header__main-menu-list-title header__main-menu-list-element">ПРОТИВО&shy;КОРУПЦИОННЫЕ<br>ДЕЙСТВИЯ</p>
             <ul class="header__main-menu-second-list list_unmarked">
               <li class="list__item">
-                <a href="#" class="list__link">Комиссия по противодействию коррупции</a>
+                <a href="#" class="list__link header__main-menu-list-element">Комиссия по противодействию коррупции</a>
               </li>
             </ul>
           </li>
@@ -57,10 +57,8 @@
       </div>
     </nav>
       <div class="header__container header__left-container">
-        <div class="header__logo">Хвойнинская ЦРБ</div>
-        <div class="header__main-menu-button header__button">
-          <img src="<%=require('./images/header__main-menu-icon.svg')%>" alt="" class="header__main-menu-icon">
-        </div>
+        <div class="header__button-main-menu header__button"></div>
+        <a href="/" class="header__logo" title="Главная страница">Хвойнинская ЦРБ</a>
       </div>
       <div class="header__container header__right-container">
         <div class="header__contrast-mode" title="Версия для слабовидящих">
@@ -69,17 +67,13 @@
             для<br>
             слабовидящих
           </div>
-          <div class="header__button">
-            <img src="<%=require('./images/header__contrast-mode-icon.svg')%>" alt="" class="header__contrast-mode-icon">
-          </div>
+          <div class="header__button header__button-contrast-mode"></div>
         </div>
         <form class="header__search">
           <div class="header__search-container">
             <input type="text" class="header__search-input">
           </div>
-          <button class="header__button header__button-search" type="submit">
-            <img src="<%=require('./images/header__search-icon.svg')%>" alt="" class="header__search-icon">
-          </button>
+          <button class="header__button header__button-search" type="submit"></button>
         </form>
       </div>
   </header>
@@ -108,7 +102,7 @@
     </div>
     <div class="contrast-mode__item">
       <div class="contrast-mode__item-content">
-        <button class="contrast-mode__item-content-big-button contrast-mode__item-content-big-button-hide">Скрыть<br>меню</button>
+        <button class="contrast-mode__item-text contrast-mode__item-content-big-button contrast-mode__item-content-big-button-hide">Скрыть<br>меню</button>
       </div>
     </div>
   </div>
@@ -133,7 +127,7 @@
           <h2 class="section__title">Противо&shy;действие коррупции</h2>
           <a href="#" class="section__big-link">Памятка</a>
           <div class="section__spoiler">
-            <img src="<%=require('./images/section__spoiler-arrow-icon.png')%>" alt="" class="section__spoiler-arrow">
+            <img src="<%=require('./images/section__spoiler-arrow-icon.png')%>" alt="Вверх" class="section__spoiler-arrow">
             <h3 class="section__spoiler-link">Что нужно знать о коррупции</h3>
           </div>
         </div>

@@ -3,22 +3,21 @@
 @import url(./header__right-container.css);
 @import url(./header__main-menu.css);
 @import url(./header__main-menu_hidden.css);
-@import url(./header__main-menu-button.css);
 @import url(./header__main-menu-container.css);
 @import url(./header__main-menu-list.css);
 @import url(./header__main-menu-second-list.css);
 @import url(./header__button.css);
+@import url(./header__button-main-menu.css);
 @import url(./header__button-search.css);
+@import url(./header__button-contrast-mode.css);
 @import url(./header__search.css);
 @import url(./header__contrast-mode.css);
 @import url(./header__contrast-mode-help.css);
 @import url(./header__search-container.css);
 @import url(./header__search-input.css);
-@import url(./header__main-menu-icon.css);
-@import url(./header__search-icon.css);
-@import url(./header__contrast-mode-icon.css);
 @import url(./header__main-menu-list-title.css);
 @import url(./header__main-menu-list-title_opened.css);
+@import url(./header__main-menu-list-element.css);
 
 .header {
   background: var(--color-gray-bg);

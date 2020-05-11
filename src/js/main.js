@@ -4,7 +4,7 @@ import '../pages/main.css';
 function mainMenuHandler() {
   document.querySelector('.header__main-menu').classList.toggle('header__main-menu_hidden');
   document.querySelector('.header__main-menu').classList.toggle('element_on-top');
-  document.querySelector('.header__main-menu-button').classList.toggle('element_orange');
+  document.querySelector('.header__button-main-menu').classList.toggle('element_orange');
   document.querySelector('.header__left-container').classList.toggle('element_orange');
   document.querySelector('.header__left-container').classList.toggle('element_on-top');
   document.querySelector('.overlay').classList.toggle('element_disabled');
@@ -28,12 +28,14 @@ document.querySelector('.contrast-mode__item-content-big-button-hide').addEventL
 
 document.querySelector('.contrast-mode__item-cube-button-white').addEventListener('click', () => {
   document.body.parentNode.classList.remove('contrast');
+  document.cookie = 'mode=normal';
 });
 document.querySelector('.contrast-mode__item-cube-button-black').addEventListener('click', () => {
   document.body.parentNode.classList.add('contrast');
+  document.cookie = 'mode=special';
 });
 
-document.querySelector('.header__main-menu-button').addEventListener('click', mainMenuHandler);
+document.querySelector('.header__button-main-menu').addEventListener('click', mainMenuHandler);
 document.querySelector('.overlay').addEventListener('click', mainMenuHandler);
 document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape') {
@@ -63,3 +65,8 @@ document.querySelectorAll('.header__main-menu-list-title').forEach(spoilerToggle
 window.onload = () => {
   document.querySelector('.header__main-menu').classList.toggle('element_disabled');
 };
+
+// Специальные возможности загрузка
+if (/mode=special/.test(document.cookie)) {
+  document.body.parentNode.classList.add('contrast');
+}

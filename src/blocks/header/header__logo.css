@@ -7,7 +7,8 @@
   letter-spacing: 0.11em;
   text-transform: uppercase;
   color: #F2F2F2;
-  margin-left: 216px;
+  margin-left: 86px;
+  text-decoration: none;
 }
 
 @media (max-width:1023px) {
@@ -16,12 +17,12 @@
     line-height: 22px;
     letter-spacing: 0.22em;
     line-height: 67px;
-    margin-left: 100px;
+    margin-left: 33px;
   }
 }
 
 @media (max-width:424px) {
   .header__logo {
-    margin-left: 80px;
+    margin-left: 13px;
   }
 }

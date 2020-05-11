@@ -21,4 +21,5 @@
   --color-opposite-text: var(--color-white);
   --color-opposite-bg: var(--color-black);
   --color-gray-bg: var(--color-black);
+  --color-black-bg: var(--color-black);
 }

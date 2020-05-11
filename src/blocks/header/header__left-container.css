@@ -1,3 +1,4 @@
 .header__left-container {
   position: relative;
+  display: flex;
 }

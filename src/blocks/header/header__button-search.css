@@ -2,5 +2,12 @@
   background-color: #E0E0E0;
   flex-shrink: 0;
   border-left: 1px solid #E0E0E0;
-  border-right: 1px solid #E0E0E0
+  border-right: 1px solid #E0E0E0;
+  background: url(../../images/header__search-icon.svg) center center no-repeat;
+}
+
+@media (max-width:1023px) {
+  .header__button-search {
+    background-size: 15px, 15px;
+  }
 }

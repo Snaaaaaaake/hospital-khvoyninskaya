@@ -1,0 +1,7 @@
+.header__main-menu-list-element {
+  opacity: 0.8;
+}
+
+.header__main-menu-list-element:hover {
+  opacity: 1;
+}
