@@ -70,3 +70,12 @@ window.onload = () => {
 if (/mode=special/.test(document.cookie)) {
   document.body.parentNode.classList.add('contrast');
 }
+
+// Фикс адреса для GHPages
+if (/github/.test(document.location.host)) {
+  const homePage = '/hospital-khvoyninskaya';
+  document.querySelectorAll('.script-link').forEach((item) => {
+    const href = item.getAttribute('href');
+    item.setAttribute('href', homePage + href);
+  });
+}
