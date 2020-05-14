@@ -13,10 +13,10 @@
   cursor: pointer;
 }
 
-.element_orange .list__title {
+.element-orange .list__title {
   color: var(--color-opposite-text);
 }
 
-.element_gray .list__title {
+.element-gray .list__title {
   color: var(--color-opposite-text);
 }

@@ -3,27 +3,27 @@ import '../pages/main.css';
 // Меню главное открытие
 function mainMenuHandler() {
   document.querySelector('.header__main-menu').classList.toggle('header__main-menu_hidden');
-  document.querySelector('.header__main-menu').classList.toggle('element_on-top');
-  document.querySelector('.header__button-main-menu').classList.toggle('element_orange');
-  document.querySelector('.header__left-container').classList.toggle('element_orange');
-  document.querySelector('.header__left-container').classList.toggle('element_on-top');
-  document.querySelector('.overlay').classList.toggle('element_disabled');
+  document.querySelector('.header__main-menu').classList.toggle('element-on-top');
+  document.querySelector('.header__button-main-menu').classList.toggle('element-orange');
+  document.querySelector('.header__left-container').classList.toggle('element-orange');
+  document.querySelector('.header__left-container').classList.toggle('element-on-top');
+  document.querySelector('.overlay').classList.toggle('element-disabled');
   if (window.screen.width <= 424) {
-    document.querySelector('.header__right-container').classList.toggle('element_on-top');
-    document.querySelector('.header__button-search').classList.toggle('element_disabled');
-    document.querySelector('.header__contrast-mode').classList.toggle('element_enabled');
+    document.querySelector('.header__right-container').classList.toggle('element-on-top');
+    document.querySelector('.header__button-search').classList.toggle('element-disabled');
+    document.querySelector('.header__contrast-mode').classList.toggle('element-enabled');
   }
 }
 
 // Меню специальные возможности
 document.querySelector('.header__contrast-mode').addEventListener('click', () => {
-  document.querySelector('.contrast-mode').classList.toggle('element_disabled');
+  document.querySelector('.contrast-mode').classList.toggle('element-disabled');
   if (window.screen.width <= 424) {
     mainMenuHandler();
   }
 });
 document.querySelector('.contrast-mode__item-content-big-button-hide').addEventListener('click', () => {
-  document.querySelector('.contrast-mode').classList.toggle('element_disabled');
+  document.querySelector('.contrast-mode').classList.toggle('element-disabled');
 });
 
 document.querySelector('.contrast-mode__item-cube-button-white').addEventListener('click', () => {
@@ -50,7 +50,7 @@ function spoilerToggleListener(openedMark) {
       const list = listTitle.nextElementSibling;
       if (list) {
         listTitle.classList.toggle(openedMark);
-        list.classList.toggle('element_enabled');
+        list.classList.toggle('element-enabled');
       }
     });
   };
@@ -63,7 +63,7 @@ document.querySelectorAll('.header__main-menu-list-title').forEach(spoilerToggle
 
 // Фикс главного меню
 window.onload = () => {
-  document.querySelector('.header__main-menu').classList.toggle('element_disabled');
+  document.querySelector('.header__main-menu').classList.toggle('element-disabled');
 };
 
 // Специальные возможности загрузка

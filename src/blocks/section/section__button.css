@@ -12,7 +12,7 @@
   cursor: pointer;
 }
 
-.element_orange .section__button {
+.element-orange .section__button {
   background-color: var(--color-primary-bg);
   color: var(--color-primary-text) !important;
 }

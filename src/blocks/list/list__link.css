@@ -8,10 +8,10 @@
   display: block;
 }
 
-.element_orange .list__link {
+.element-orange .list__link {
   color: var(--color-opposite-text);
 }
 
-.element_gray .list__link {
+.element-gray .list__link {
   color: var(--color-opposite-text);
 }

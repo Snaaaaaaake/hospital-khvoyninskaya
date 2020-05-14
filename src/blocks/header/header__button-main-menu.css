@@ -3,7 +3,7 @@
   background: url(../../images/header__main-menu-icon.svg) center center no-repeat var(--color-black-bg);
 }
 
-.element_orange .header__button-main-menu {
+.element-orange .header__button-main-menu {
   background-image: url(../../images/header__main-menu-icon_white.svg);
 }
 
