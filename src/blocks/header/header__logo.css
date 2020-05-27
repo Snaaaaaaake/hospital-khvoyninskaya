@@ -9,6 +9,8 @@
   margin: 0;
   padding:0;
   margin-left: 86px;
+  color: #F2F2F2;
+  text-decoration: none;
 }
 
 @media (max-width:1023px) {
