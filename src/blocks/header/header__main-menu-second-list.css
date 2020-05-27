@@ -9,7 +9,7 @@
   width: 350px;
 }
 
-.header__main-menu-list_item:hover .header__main-menu-second-list {
+.header__main-menu-list-item:hover .header__main-menu-second-list {
   visibility: visible;
   opacity: 1;
 }

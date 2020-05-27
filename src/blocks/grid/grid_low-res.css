@@ -2,4 +2,8 @@
   .grid_low-res{
     display: none !important;
   }
+
+  .element-enabled.grid_low-res {
+    display: none !important;
+  }
 }

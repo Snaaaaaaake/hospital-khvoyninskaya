@@ -6,9 +6,9 @@
   display: flex;
   letter-spacing: 0.11em;
   text-transform: uppercase;
-  color: #F2F2F2;
+  margin: 0;
+  padding:0;
   margin-left: 86px;
-  text-decoration: none;
 }
 
 @media (max-width:1023px) {

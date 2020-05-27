@@ -1,27 +1,26 @@
 import '../pages/prophylaxy.css';
 
 // Таблицы спойлеры
-if (window.screen.width < 1499) {
-  document.querySelectorAll('.grid_clickable .grid__title').forEach((item) => {
-    const gridHeader = item.parentElement.previousElementSibling.cloneNode(true);
-    gridHeader.classList.add('grid_low-res');
-    item.after(gridHeader);
-    item.setAttribute('title', 'Скрыть/показать');
-    item.addEventListener('click', () => {
-      item.classList.toggle('grid__title_opened');
-      item.nextElementSibling.classList.toggle('element-enabled');
-      item.nextElementSibling.nextElementSibling.classList.toggle('element-grid-enabled');
-    });
+document.querySelectorAll('.grid_clickable .grid__title').forEach((item) => {
+  const gridHeader = item.parentElement.previousElementSibling.cloneNode(true);
+  gridHeader.classList.add('grid_low-res');
+  item.after(gridHeader);
+  item.setAttribute('title', 'Скрыть/показать');
+  item.addEventListener('click', () => {
+    item.classList.toggle('grid__title_opened');
+    item.nextElementSibling.classList.toggle('element-enabled');
+    item.nextElementSibling.nextElementSibling.classList.toggle('element-grid-enabled');
   });
+});
 
-  document.querySelectorAll('.grid__help-title').forEach((item) => {
-    item.setAttribute('title', 'Скрыть/показать');
-    item.addEventListener('click', () => {
-      item.classList.toggle('grid__title_opened');
-      item.nextElementSibling.classList.toggle('element-grid-enabled');
-    });
+document.querySelectorAll('.grid__help-title').forEach((item) => {
+  item.setAttribute('title', 'Скрыть/показать');
+  item.addEventListener('click', () => {
+    item.classList.toggle('grid__title_opened');
+    item.nextElementSibling.classList.toggle('element-grid-enabled');
   });
-}
+});
+
 
 // Меню главное открытие
 function mainMenuHandler() {
@@ -37,6 +36,14 @@ function mainMenuHandler() {
     document.querySelector('.header__contrast-mode').classList.toggle('element-enabled');
   }
 }
+
+document.querySelector('.header__button-main-menu').addEventListener('click', mainMenuHandler);
+document.querySelector('.overlay').addEventListener('click', mainMenuHandler);
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape') {
+    mainMenuHandler();
+  }
+});
 
 // Меню специальные возможности
 document.querySelector('.header__contrast-mode').addEventListener('click', () => {
@@ -56,14 +63,6 @@ document.querySelector('.contrast-mode__item-cube-button-white').addEventListene
 document.querySelector('.contrast-mode__item-cube-button-black').addEventListener('click', () => {
   document.body.parentNode.classList.add('contrast');
   document.cookie = 'mode=special';
-});
-
-document.querySelector('.header__button-main-menu').addEventListener('click', mainMenuHandler);
-document.querySelector('.overlay').addEventListener('click', mainMenuHandler);
-document.addEventListener('keydown', (event) => {
-  if (event.key === 'Escape') {
-    mainMenuHandler();
-  }
 });
 
 // Меню все
