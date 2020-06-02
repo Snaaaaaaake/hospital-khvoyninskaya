@@ -1,4 +1,4 @@
-import '../pages/about.css';
+import '../pages/shedule.css';
 import Header from '../blocks/header/Header';
 import Footer from '../blocks/footer/Footer';
 import ContrastMode from '../blocks/contrast-mode/ContrastMode';

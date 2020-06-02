@@ -11,6 +11,7 @@ module.exports = {
 	main: './src/js/main.js', 
 	prophylaxy: './src/js/prophylaxy.js', 
 	about: './src/js/about.js',
+	shedule: './src/js/shedule.js',
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -78,6 +79,11 @@ module.exports = {
       inject: false,
       template: './src/about.html',
       filename: './about/index.html'
+    }),
+	new HtmlWebpackPlugin({
+      inject: false,
+      template: './src/shedule.html',
+      filename: './shedule/index.html'
     }),
     new WebpackMd5Hash(),
 	new webpack.DefinePlugin({
