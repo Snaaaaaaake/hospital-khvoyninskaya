@@ -12,7 +12,7 @@
   .header__button {
     height: 67px;
     width: 67px;
-    line-height: 67px;
+    line-height: 67rem;
     display: flex;
     justify-content: space-around;
     align-items: center;

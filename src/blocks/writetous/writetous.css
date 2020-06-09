@@ -1,0 +1,19 @@
+@import url(./writetous__label.css);
+@import url(./writetous__input.css);
+@import url(./writetous__item_span.css);
+@import url(./writetous__submit.css);
+@import url(./writetous__textarea.css);
+
+.writetous {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+@media (max-width:1023px) {
+  .writetous {
+    padding-top: 10px;
+    grid-template-columns: 1fr;
+  }
+}

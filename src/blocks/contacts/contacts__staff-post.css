@@ -1,0 +1,25 @@
+.contacts__staff-post {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 20rem;
+  line-height: 30rem;
+  color: var(--color-primary-text);
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  margin: 0;
+  text-decoration: underline;
+}
+
+@media (max-width:1499px) {
+  .contacts__staff-post {
+    font-size: 14rem;
+    line-height: 18rem;
+  }
+}
+
+@media (max-width:1023px) {
+  .contacts__staff-post {
+    font-size: 12rem;
+    line-height: 16rem;
+  }
+}

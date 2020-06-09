@@ -1,8 +1,8 @@
 .section__list-item-link {
   font-family: 'Work Sans', sans-serif;
   font-weight: 600;
-  font-size: 20px;
-  line-height: 27px;
+  font-size: 20rem;
+  line-height: 27rem;
   text-decoration-line: underline;
   text-transform: uppercase;
   color: var(--color-primary-text);
@@ -14,14 +14,14 @@
 
 @media (max-width:1499px) {
   .section__list-item-link {
-    font-size: 20px;
-    line-height: 27px;
+    font-size: 20rem;
+    line-height: 27rem;
   }
 }
 
 @media (max-width:1023px) {
   .section__list-item-link {
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 12rem;
+    line-height: 16rem;
   }
 }

@@ -1,0 +1,17 @@
+.section__main {
+  padding-top: 122px;
+  margin-bottom: 166px;
+}
+
+@media (max-width:1499px) {
+  .section__main {
+    margin-bottom: 48px;
+    padding-top: 48px;
+  }
+}
+
+@media (max-width:1023px) {
+  .section__main {
+    padding-top: 20px;
+  }
+}

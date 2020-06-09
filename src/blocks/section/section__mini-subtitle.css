@@ -1,8 +1,8 @@
 .section__mini-subtitle {
   font-family: 'Work Sans', sans-serif;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 22px;
+  font-size: 20rem;
+  line-height: 22rem;
   letter-spacing: 0.015em;
   color: var(--color-primary-text);
   margin-top: 10px;
@@ -15,15 +15,15 @@
 
 @media (max-width:1499px) {
   .section__mini-subtitle {
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 14rem;
+    line-height: 22rem;
   }
 }
 
 @media (max-width:1023px) {
   .section__mini-subtitle {
-    font-size: 12px;
-    line-height: 22px;
+    font-size: 12rem;
+    line-height: 22rem;
     margin-top: 0;
   }
 }

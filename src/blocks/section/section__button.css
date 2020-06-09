@@ -1,9 +1,9 @@
 .section__button {
   width: 580px;
   font-family: 'Work Sans', sans-serif;
-  line-height: 88px;
+  line-height: 88rem;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 20rem;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   border: none;
@@ -26,8 +26,8 @@
 @media (max-width:1023px) {
   .section__button {
     width: 100%;
-    font-size: 14px;
-    line-height: 61px;
+    font-size: 14rem;
+    line-height: 61rem;
     padding: 0;
   }
 }

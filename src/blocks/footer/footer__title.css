@@ -1,8 +1,8 @@
 .footer__title {
   font-family: 'Work Sans', sans-serif;
   font-weight: 600;
-  font-size: 34px;
-  line-height: 93px;
+  font-size: 34rem;
+  line-height: 93rem;
   letter-spacing: 0.11em;
   text-transform: uppercase;
   border-bottom: 2px solid var(--color-opposite-text);
@@ -13,8 +13,8 @@
 
 @media (max-width:1023px) {
   .footer__title {
-    font-size: 20px;
-    line-height: 79px;
+    font-size: 20rem;
+    line-height: 79rem;
     margin-bottom: 322px;
   }
 }

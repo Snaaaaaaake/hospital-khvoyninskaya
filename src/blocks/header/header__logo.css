@@ -1,7 +1,7 @@
 .header__logo {
   font-family: 'Work Sans', sans-serif;
   font-weight: 600;
-  font-size: 34px;
+  font-size: 34rem;
   line-height: 132px;
   display: flex;
   letter-spacing: 0.11em;
@@ -15,8 +15,7 @@
 
 @media (max-width:1023px) {
   .header__logo {
-    font-size: 12px;
-    line-height: 22px;
+    font-size: 12rem;
     letter-spacing: 0.22em;
     line-height: 67px;
     margin-left: 33px;

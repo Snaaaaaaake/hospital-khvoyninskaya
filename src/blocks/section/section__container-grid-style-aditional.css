@@ -1,0 +1,9 @@
+.section__container-grid-style-aditional {
+  padding-top: 90px;
+}
+
+@media (max-width:1499px) {
+  .section__container-grid-style-aditional {
+    padding-top: 0;
+  }
+}

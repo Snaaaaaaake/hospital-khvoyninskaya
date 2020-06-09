@@ -5,6 +5,7 @@
   box-sizing: border-box;
   margin-left: 14px;
   text-align: center;
+  cursor: pointer;
 }
 
 @media (max-width:1023px) {

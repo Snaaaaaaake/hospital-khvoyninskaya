@@ -10,25 +10,33 @@ export default class Footer {
       <nav class="footer__menu">
         <ul class="list list_unmarked footer__container footer__list-item-container">
           <li class="list__item footer__list-item-container">
-            <a href="#" class="list__title footer__list-title">КОНТАКТЫ</a>
+            <p class="list__title footer__list-title">КОНТАКТЫ</p>
+            <ul class="footer__container-list list list_unmarked">
+              <li class="list__item">
+                <a href="/contacts" class="list__link">Контакты больницы</a>
+              </li>
+              <li class="list__item">
+                <a href="/vacancy" class="list__link">Вакансии</a>
+              </li>
+            </ul>
           </li>
           <li class="list__item footer__list-item-container">
             <p class="list__title footer__list-title">ПАЦИЕНТАМ</p>
             <ul class="footer__container-list list list_unmarked">
               <li class="list__item">
-                <a href="#" class="list__link">Расписание</a>
+                <a href="/shedule" class="list__link">Расписание</a>
               </li>
               <li class="list__item">
-                <a href="#" class="list__link">Основные виды деятельности</a>
+                <a href="/activities" class="list__link">Основные виды деятельности</a>
               </li>
               <li class="list__item">
-                <a href="/prophylaxy" class="script-link list__link">Профилактика</a>
+                <a href="/prophylaxy" class="list__link">Профилактика</a>
               </li>
               <li class="list__item">
                 <a href="#" class="list__link">ГОСУСЛУГИ запись на прием</a>
               </li>
               <li class="list__item">
-                <a href="#" class="list__link">Написать нам</a>
+                <a href="/writetous" class="list__link">Написать нам</a>
               </li>
               <li class="list__item">
                 <a href="#" class="list__link">Прочая информация</a>
@@ -36,16 +44,16 @@ export default class Footer {
             </ul>
           </li>
           <li class="list__item footer__list-item-container">
-            <a href="" class="list__title list__item footer__list-title">ПЛАТНЫЕ УСЛУГИ</a>
+            <a href="/paidservices" class="list__title list__item footer__list-title">ПЛАТНЫЕ УСЛУГИ</a>
           </li>
           <li class="list__item footer__list-item-container">
-            <a href="/about" class="script-link list__title list__item footer__list-title">О НАС</a>
+            <a href="/about" class="list__title list__item footer__list-title">О НАС</a>
           </li>
           <li class="list__item footer__list-item-container">
             <p class="list__title list__item footer__list-title">ПРОТИВО&shy;ДЕЙСТВИЕ КОРРУПЦИИ</p>
             <ul class="footer__container-list list list_unmarked">
               <li class="list__item">
-                <a href="#" class="list__link">Комиссия по противодействию коррупции</a>
+                <a href="/corruption" class="list__link">Комиссия по противодействию коррупции</a>
               </li>
             </ul>
           </li>

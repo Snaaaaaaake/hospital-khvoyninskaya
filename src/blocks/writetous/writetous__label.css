@@ -1,0 +1,25 @@
+.writetous__label {
+  display: block;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 34rem;
+  line-height: 64rem;
+  padding-bottom: 20px;
+  color: var(--color-primary-text);
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+}
+
+@media (max-width:1499px) {
+  .writetous__label {
+    font-size: 30rem;
+  }
+}
+
+@media (max-width:1023px) {
+  .writetous__label {
+    font-size: 20rem;
+    line-height: 36rem;
+    padding-bottom: 5px;
+  }
+}

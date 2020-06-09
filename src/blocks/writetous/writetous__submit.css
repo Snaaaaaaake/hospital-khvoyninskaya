@@ -1,0 +1,9 @@
+.writetous__submit {
+  margin-top: 60px;
+}
+
+@media (max-width:1023px) {
+  .writetous__submit {
+    margin-top: 24px;
+  }
+}

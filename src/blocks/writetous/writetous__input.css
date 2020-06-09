@@ -1,0 +1,26 @@
+.writetous__input {
+  display: block;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 34rem;
+  line-height: 64rem;
+  color: var(--color-primary-text);
+  padding: 20px 10px;
+  border: 1px solid var(--color-primary-text);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width:1499px) {
+  .writetous__input {
+    font-size: 30rem;
+  }
+}
+
+@media (max-width:1023px) {
+  .writetous__input {
+    font-size: 20rem;
+    line-height: 36rem;
+    padding: 10px 5px;
+  }
+}

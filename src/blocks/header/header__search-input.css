@@ -1,8 +1,8 @@
 .header__search-input {
   font-family: 'Work Sans', sans-serif;
   font-weight: 600;
-  font-size: 20px;
-  line-height: 27px;
+  font-size: 20rem;
+  line-height: 27rem;
   letter-spacing: 0.015em;
   color: var(--color-gray-bg);
   border: none;

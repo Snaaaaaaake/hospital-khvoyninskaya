@@ -1,0 +1,22 @@
+.activities__item {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 20rem;
+  line-height: 22rem;
+  color: var(--color-primary-text);
+  letter-spacing: 0.015em;
+  margin: 0;
+}
+
+@media (max-width:1499px) {
+  .activities__item {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width:1023px) {
+  .activities__item {
+    font-size: 12px;
+  }
+}

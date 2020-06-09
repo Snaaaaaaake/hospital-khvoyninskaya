@@ -2,8 +2,8 @@
   margin: 0px;
   font-family: 'Work Sans', sans-serif;
   font-weight: 500;
-  font-size: 34px;
-  line-height: 37px;
+  font-size: 34rem;
+  line-height: 37rem;
   letter-spacing: 0.015em;
   color: var(--color-primary-text);
 }
@@ -14,7 +14,7 @@
 
 @media (max-width:1499px) {
   .section__subtitle-paragraph-big {
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 12rem;
+    line-height: 16rem;
   }
 }

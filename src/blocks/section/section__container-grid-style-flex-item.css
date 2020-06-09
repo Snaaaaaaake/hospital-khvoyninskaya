@@ -1,12 +1,12 @@
 @media (max-width:1499px) {
-  .section__text-container-flex-item {
+  .section__container-grid-style-flex-item {
     width: calc(50% - 60px);
     margin-right: 60px;
   }
 }
 
 @media (max-width:1023px) {
-  .section__text-container-flex-item {
+  .section__container-grid-style-flex-item {
     width: inherit;
     margin: 0;
   }

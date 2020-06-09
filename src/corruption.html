@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>О нас - Хвойнинская ЦРБ</title>
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.corruption.css %>">
+</head>
+<body class="body">
+  <div class="overlay element-disabled"></div>
+  <header id="header"></header>
+  <div id="contrast-mode"></div>
+  <main class="main content">
+    <section class="section section_hight-mobile element-orange">
+      <div class="section__container-grid-style">
+        <h2 class="section__title">Противо&shy;действие коррупции</h2>
+        <a href="#" class="section__big-link">Памятка</a>
+        <div class="section__spoiler">
+          <img src="<%=require('./images/section__spoiler-arrow-icon.png')%>" alt="Вверх" class="section__spoiler-arrow">
+          <h3 class="section__spoiler-link">Что нужно знать о коррупции</h3>
+        </div>
+      </div>
+    </section>
+    <section class="section content__corruption section_order-minus-1-mobile element-with-backgroud element-background-disabled"></section>
+    <section class="section section_span">
+      <div class="section__container-grid-style">
+        <div class="section__container-grid-style-aditional">
+          <h4 class="section__download-link-block-title">Комиссия по противодействию коррупции</h4>
+          <div class="section__download-link-block">
+            <a href="#" class="section__download-link">Приказ об организации работы Комиссии по противодействию коррупции</a>
+            <a href="#" class="section__download-link">Положение о Комиссии по противодействию коррупции в ОАУЗ «Хвойнинская ЦРБ»</a>
+            <a href="#" class="section__download-link">Антикоррупционная политика в ОАУЗ "Хвойнинская ЦРБ"</a>
+            <a href="#" class="section__download-link">Порядок информирования работниками о случаях склонения к совершению коррупционных нарушений</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer id="footer"></footer>
+  <script src="<%= htmlWebpackPlugin.files.chunks.corruption.entry %>"></script>
+</body>
+</html>

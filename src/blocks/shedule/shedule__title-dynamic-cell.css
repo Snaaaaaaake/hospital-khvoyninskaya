@@ -1,0 +1,6 @@
+@media (max-width:1499px) {
+  .shedule__title-dynamic-cell {
+    text-align: right;
+    font-weight: 600;
+  }
+}

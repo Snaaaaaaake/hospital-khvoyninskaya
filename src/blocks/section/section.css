@@ -7,8 +7,8 @@
 @import url(./section__subtitle-paragraph.css);
 @import url(./section__subtitle-paragraph-big.css);
 @import url(./section_span.css);
-@import url(./section__text-container.css);
-@import url(./section__text-container_no-padding.css);
+@import url(./section__container-grid-style.css);
+@import url(./section__container-grid-style_no-padding.css);
 @import url(./section__big-link.css);
 @import url(./section__spoiler.css);
 @import url(./section__spoiler-link.css);
@@ -23,11 +23,15 @@
 @import url(./section__download-link.css);
 @import url(./section_order-1.css);
 @import url(./section_order-1-mobile.css);
-@import url(./section__text-container-aditional.css);
-@import url(./section__text-container-flex.css);
-@import url(./section__text-container-flex-item.css);
+@import url(./section_order-minus-1-mobile.css);
+@import url(./section__container-grid-style-aditional.css);
+@import url(./section__container-grid-style-flex.css);
+@import url(./section__container-grid-style-flex-item.css);
 @import url(./section__arrow.css);
 @import url(./section_hight-mobile.css);
+@import url(./section__title-clickable.css);
+@import url(./section__container.css);
+@import url(./section__main.css);
 
 .section {
   min-height: 1080px;

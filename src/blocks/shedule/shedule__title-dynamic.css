@@ -1,0 +1,13 @@
+.shedule__title-dynamic {
+  display: none;
+}
+
+@media (max-width:1499px) {
+  .shedule__title-dynamic {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row: span 7;
+    text-align: right;
+    grid-gap: 20px;
+  }
+}

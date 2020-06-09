@@ -1,13 +1,13 @@
 .contrast-mode__item-content-font_medium {
-  font-size: 34px;
-  line-height: 40px;
+  font-size: 34rem;
+  line-height: 40rem;
   width: 40px;
 }
 
 @media (max-width:1023px) {
   .contrast-mode__item-content-font_medium {
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 15rem;
+    line-height: 20rem;
     width: 20px;
   }
 }

@@ -1,8 +1,8 @@
 .grid__cell {
   font-family: 'Work Sans', sans-serif;
   font-weight: 500;
-  font-size: 12px;
-  line-height: 12px;
+  font-size: 12rem;
+  line-height: 12rem;
   letter-spacing: 0.015em;
 
   display: flex;
@@ -22,14 +22,14 @@
     border: none;
     border-left: 1px solid var(--color-primary-text);
     border-bottom: 1px solid var(--color-primary-text);
-    font-size: 18px;
-    line-height: 18px;
+    font-size: 18rem;
+    line-height: 18rem;
   }
 }
 
 @media (max-width:1023px) {
   .grid__cell {
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 12rem;
+    line-height: 14rem;
   }
 }

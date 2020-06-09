@@ -1,0 +1,13 @@
+.shedule__name {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  border-bottom: 1px solid var(--color-primary-text);
+}
+
+@media (max-width:1499px) {
+  .shedule__name {
+    grid-gap: 0;
+    cursor: pointer;
+  }
+}

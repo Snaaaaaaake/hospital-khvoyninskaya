@@ -10,8 +10,8 @@
 
   font-family: 'Work Sans', sans-serif;
   font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 18rem;
+  line-height: 22rem;
   text-align: center;
   letter-spacing: 0.015em;
   color: var(--color-primary-text);
@@ -21,7 +21,7 @@
   .contrast-mode__item-switch {
     width: 40px;
     height: 20px;
-    font-size: 10px;
-    line-height: 12px;
+    font-size: 10rem;
+    line-height: 12rem;
   }
 }

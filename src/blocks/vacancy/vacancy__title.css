@@ -1,0 +1,26 @@
+.vacancy__title {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 34rem;
+  line-height: 36rem;
+  color: var(--color-primary-text);
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  max-width: 500px;
+  margin-bottom: 70px;
+}
+
+@media (max-width: 1499px) {
+  .vacancy__title {
+    font-size: 30rem;
+    line-height: 35rem;
+  }
+}
+
+@media (max-width:1023px) {
+  .vacancy__title {
+    font-size: 20rem;
+    line-height: 22rem;
+    margin-bottom: 45px
+  }
+}

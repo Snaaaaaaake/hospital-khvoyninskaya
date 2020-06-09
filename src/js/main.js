@@ -9,6 +9,7 @@ header.render(document.getElementById('header'));
 
 const contrastMode = new ContrastMode();
 contrastMode.render(document.getElementById('contrast-mode'), header.buttonContrastMode, header.mainMenuHandler);
+contrastMode.apply();
 
 const footer = new Footer();
 footer.render(document.getElementById('footer'));

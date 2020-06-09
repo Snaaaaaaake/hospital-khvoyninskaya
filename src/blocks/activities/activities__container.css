@@ -1,0 +1,14 @@
+.activities__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 60px;
+  margin-bottom: 60px;
+}
+
+@media (max-width:1023px) {
+  .activities__container {
+    grid-gap: 15px;
+    margin-bottom: 30px;
+    grid-template-columns: 1fr;
+  }
+}

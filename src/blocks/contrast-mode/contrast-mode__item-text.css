@@ -1,8 +1,8 @@
 .contrast-mode__item-text {
   font-family: 'Work Sans', sans-serif;
   font-weight: 600;
-  font-size: 20px;
-  line-height: 22px;
+  font-size: 20rem;
+  line-height: 22rem;
   letter-spacing: 0.015em;
   text-transform: uppercase;
   color: var(--color-primary-text);
@@ -11,16 +11,16 @@
 
 @media (max-width:1499px) {
   .contrast-mode__item-text {
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 18rem;
+    line-height: 20rem;
     padding-right: 15px;
   }
 }
 
 @media (max-width:1023px) {
   .contrast-mode__item-text {
-    font-size: 10px;
-    line-height: 12px;
+    font-size: 10rem;
+    line-height: 12rem;
     padding-right: 10px;
   }
 }

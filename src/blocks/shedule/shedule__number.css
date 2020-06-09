@@ -1,0 +1,10 @@
+.shedule__number {
+  display:block;
+  margin: auto;
+  line-height: 60rem;
+  width: 60rem;
+  border-radius: 30px;
+  background-color: var(--color-opposite-bg);
+  color: var(--color-opposite-text);
+  text-align: center;
+}

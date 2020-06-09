@@ -1,7 +1,7 @@
 .list__link {
   font-family: 'Work Sans', sans-serif;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 18rem;
+  line-height: 22rem;
   padding: 11px 0;
   text-decoration: none;
   color: var(--color-primary-text);

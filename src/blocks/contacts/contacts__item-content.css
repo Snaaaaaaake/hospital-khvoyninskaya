@@ -1,0 +1,23 @@
+.contacts__item-content {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 20rem;
+  line-height: 22rem;
+  color: var(--color-primary-text);
+  letter-spacing: 0.015em;
+  margin: 0;
+}
+
+@media (max-width:1499px) {
+  .contacts__item-content {
+    font-size: 14rem;
+    line-height: 18rem;
+  }
+}
+
+@media (max-width:1023px) {
+  .contacts__item-content {
+    font-size: 12rem;
+    line-height: 14rem;
+  }
+}

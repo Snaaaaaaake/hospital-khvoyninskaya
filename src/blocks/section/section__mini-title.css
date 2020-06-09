@@ -2,8 +2,8 @@
   margin: 0;
   font-family: 'Work Sans', sans-serif;
   font-weight: 600;
-  font-size: 34px;
-  line-height: 36px;
+  font-size: 34rem;
+  line-height: 36rem;
   letter-spacing: 0.015em;
   color: var(--color-primary-text);
 }
@@ -15,8 +15,8 @@
 @media (max-width:1499px) {
   .section__mini-title {
     margin-top: 62px;
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 30rem;
+    line-height: 35rem;
   }
 }
 
@@ -24,7 +24,7 @@
   .section__mini-title {
     margin-top: 0;
     margin-bottom: 5px;
-    font-size: 20px;
-    line-height: 22px;
+    font-size: 20rem;
+    line-height: 22rem;
   }
 }

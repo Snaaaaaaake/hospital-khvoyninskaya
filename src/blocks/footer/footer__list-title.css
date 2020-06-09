@@ -1,7 +1,7 @@
 @media (max-width:1499px) {
   .footer__list-title {
-    font-size: 20px;
-    line-height: 22px;
+    font-size: 20rem;
+    line-height: 22rem;
     padding: 28px 0;
     background: url(../../images/footer__list-title-arrow.png) right center no-repeat;
   }

@@ -1,0 +1,9 @@
+.writetous__item_span {
+  grid-column: span 2;
+}
+
+@media (max-width:1023px) {
+  .writetous__item_span {
+    grid-column: span 1;
+  }
+}

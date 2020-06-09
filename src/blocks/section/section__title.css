@@ -1,11 +1,11 @@
 .section__title {
   font-weight: 600;
-  font-size: 55px;
-  line-height: 64px;
+  font-size: 55rem;
+  line-height: 64rem;
   letter-spacing: 0.015em;
   text-transform: uppercase;
   font-family: 'Work Sans', sans-serif;
-  margin: 0px;
+  margin: 0 0 48px 0;
   color: var(--color-primary-text);
 }
 .element-orange .section__title {
@@ -14,7 +14,8 @@
 
 @media (max-width:1499px) {
   .section__title {
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 30rem;
+    line-height: 35rem;
+    margin: 0 0 21px 0;
   }
 }

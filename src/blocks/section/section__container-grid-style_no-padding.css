@@ -1,10 +1,10 @@
-.section__text-container_no-padding {
+.section__container-grid-style_no-padding {
   padding-left: 0;
   padding-right: 172px;
 }
 
 @media (max-width:1499px) {
-  .section__text-container_no-padding {
+  .section__container-grid-style_no-padding {
    padding-top: 0 !important;
    padding-bottom: 60px !important;
   }

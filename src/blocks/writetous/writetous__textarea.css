@@ -1,0 +1,5 @@
+@media (max-width:1023px) {
+  .writetous__textarea {
+    height: 400px;
+  }
+}

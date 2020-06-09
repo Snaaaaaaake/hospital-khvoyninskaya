@@ -1,0 +1,20 @@
+@import url(./shedule__title-cell.css);
+@import url(./shedule__container.css);
+@import url(./shedule__name.css);
+@import url(./shedule__days.css);
+@import url(./shedule__cell.css);
+@import url(./shedule__post.css);
+@import url(./shedule__number.css);
+@import url(./shedule__title-dynamic.css);
+@import url(./shedule__title-dynamic-cell.css);
+@import url(./shedule__title.css);
+
+.shedule {
+  width: 100%;
+}
+
+@media (max-width:1499px) {
+  .shedule {
+    padding-top: 20px;
+  }
+}

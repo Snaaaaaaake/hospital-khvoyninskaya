@@ -26,3 +26,13 @@
   --color-gray-bg: var(--color-black);
   --color-black-bg: var(--color-black);
 }
+
+:root.small {
+  font-size: 0.8px;
+  line-height: 0.8px;
+}
+
+:root.large {
+  font-size: 1.2px;
+  line-height: 1.2px;
+}

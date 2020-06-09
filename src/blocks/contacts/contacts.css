@@ -1,0 +1,10 @@
+@import url(./contacts__item.css);
+@import url(./contacts__item-title.css);
+@import url(./contacts__item-content.css);
+@import url(./contacts__staff-post.css);
+@import url(./contacts__staff.css);
+@import url(./contacts__staff-item.css);
+
+.contacts {
+  padding-top: 90px;
+}

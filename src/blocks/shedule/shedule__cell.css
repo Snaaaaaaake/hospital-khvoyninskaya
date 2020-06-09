@@ -1,0 +1,23 @@
+.shedule__cell {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 18rem;
+  line-height: 23rem;
+  color: var(--color-primary-text);
+  text-align: center;
+  padding: 30px 0px;
+}
+
+@media (max-width:1499px) {
+  .shedule__cell {
+    padding: 12px 0px;
+    text-align: left;
+  }
+}
+
+@media (max-width:1023px) {
+  .shedule__cell {
+    font-size: 12rem;
+    line-height: 16rem;
+  }
+}
