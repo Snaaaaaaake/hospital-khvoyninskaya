@@ -12,6 +12,12 @@ module.exports = {
 	prophylaxy: './src/js/prophylaxy.js', 
 	about: './src/js/about.js',
 	shedule: './src/js/shedule.js',
+	writetous: './src/js/writetous.js',
+	paidservices: './src/js/paidservices.js',
+	corruption: './src/js/corruption.js',
+	vacancy: './src/js/vacancy.js',
+	contacts: './src/js/contacts.js',
+	activities: './src/js/activities.js',
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -84,6 +90,36 @@ module.exports = {
       inject: false,
       template: './src/shedule.html',
       filename: './shedule/index.html'
+    }),
+	new HtmlWebpackPlugin({
+      inject: false,
+      template: './src/writetous.html',
+      filename: './writetous/index.html'
+    }),
+	new HtmlWebpackPlugin({
+      inject: false,
+      template: './src/paidservices.html',
+      filename: './paidservices/index.html'
+    }),
+	new HtmlWebpackPlugin({
+      inject: false,
+      template: './src/corruption.html',
+      filename: './corruption/index.html'
+    }),
+	new HtmlWebpackPlugin({
+      inject: false,
+      template: './src/vacancy.html',
+      filename: './vacancy/index.html'
+    }),
+	new HtmlWebpackPlugin({
+      inject: false,
+      template: './src/contacts.html',
+      filename: './contacts/index.html'
+    }),
+	new HtmlWebpackPlugin({
+      inject: false,
+      template: './src/activities.html',
+      filename: './activities/index.html'
     }),
     new WebpackMd5Hash(),
 	new webpack.DefinePlugin({
