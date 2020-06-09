@@ -1,5 +1,5 @@
 export default function getCookie() {
-  const cookieArray = document.cookie.split('&');
+  const cookieArray = document.cookie.split('; ');
   const cookieObject = {};
   cookieArray.forEach((item) => {
     const [key, value] = item.split('=');
