@@ -9,8 +9,8 @@
   </head>
 <body class="body">
   <div class="overlay element-disabled"></div>
-  <header id="header"></header>
-  <div id="contrast-mode"></div>
+  <%=require('html-loader!./templates/header.html')%>
+  <%=require('html-loader!./templates/contrast-mode.html')%>
   <main class="main main_static content">
       <section class="section">
         <div class="section__container">
@@ -60,7 +60,7 @@
         </div>
       </section>
   </main>
-  <footer id="footer"></footer>
+  <%=require('html-loader!./templates/footer.html')%>
   <script src="<%= htmlWebpackPlugin.files.chunks.contacts.entry %>"></script>
 </body>
 </html>

@@ -10,8 +10,8 @@
 </head>
 <body class="body">
   <div class="overlay element-disabled"></div>
-  <header id="header"></header>
-  <div id="contrast-mode"></div>
+  <%=require('html-loader!./templates/header.html')%>
+  <%=require('html-loader!./templates/contrast-mode.html')%>
   <main class="main content">
     <section class="section content__about element-with-backgroud element-background-disabled"></section>
     <section class="section element-orange">
@@ -79,9 +79,9 @@
         </div>
       </div>
     </section>
-
   </main>
-  <footer id="footer"></footer>
+
+  <%=require('html-loader!./templates/footer.html')%>
   <script src="<%= htmlWebpackPlugin.files.chunks.about.entry %>"></script>
 </body>
 </html>
