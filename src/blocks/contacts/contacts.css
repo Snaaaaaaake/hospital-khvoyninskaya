@@ -4,6 +4,7 @@
 @import url(./contacts__staff-post.css);
 @import url(./contacts__staff.css);
 @import url(./contacts__staff-item.css);
+@import url(./contacts__item-content-phone.css);
 
 .contacts {
   padding-top: 90px;

@@ -1,18 +1,9 @@
 import '../pages/prophylaxy.css';
-import Header from '../blocks/header/Header';
-import Footer from '../blocks/footer/Footer';
-import ContrastMode from '../blocks/contrast-mode/ContrastMode';
 import ghPagesFix from './utils/ghPagesFix';
+import renderTemplates from './utils/rednerTemplates';
 
-const header = new Header();
-header.render(document.getElementById('header'));
-
-const contrastMode = new ContrastMode();
-contrastMode.render(document.getElementById('contrast-mode'), header.buttonContrastMode, header.mainMenuHandler);
-contrastMode.apply();
-
-const footer = new Footer();
-footer.render(document.getElementById('footer'));
+renderTemplates();
+ghPagesFix();
 
 // Таблицы спойлеры
 document.querySelectorAll('.grid_clickable .grid__title').forEach((item) => {
@@ -34,6 +25,3 @@ document.querySelectorAll('.grid__help-title').forEach((item) => {
     item.nextElementSibling.classList.toggle('element-grid-enabled');
   });
 });
-
-// Фикс адреса для GHPages
-ghPagesFix();

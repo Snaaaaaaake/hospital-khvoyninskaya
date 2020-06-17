@@ -2,7 +2,7 @@ import getCookie from '../../js/utils/getCookie';
 import setCookie from '../../js/utils/setCookie';
 
 export default class ContrastMode {
-  render(parentElement, openButton, additionalListener) {
+  render(openButton, additionalListener) {
     // Вешаем обработчики
     // Размер шрифта
     document.querySelector('.contrast-mode__item-content-font_small').addEventListener('click', () => {

@@ -6,6 +6,7 @@
   color: var(--color-primary-text);
   letter-spacing: 0.015em;
   margin: 0;
+  text-decoration: none;
 }
 
 @media (max-width:1499px) {
